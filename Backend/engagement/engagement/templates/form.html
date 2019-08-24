@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head><body>  
+    
+    <h3>Hello! {{user.last_name}}</h3>
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <input type="file" name="myfile">
             <button type="submit">Upload</button>
           </form>
-        
+          <div>
+            {% for message in messages %}
+            <h3>{{message}}</h3>
+            {% endfor %}
+        </div>
+
+<form method="POST">
+    {% csrf_token %}
+    <button type="submit" name="login">Login</button>
+</form>
+
         </body>  
 </html>
