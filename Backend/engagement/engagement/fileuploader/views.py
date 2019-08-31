@@ -3,8 +3,15 @@ from django.http import HttpResponse
 from django.core.files.storage import FileSystemStorage
 from django.contrib.auth.models import User,auth
 from django.contrib import messages
+from django.contrib.auth import authenticate,login,logout
 import os
 import re
+import time
+from django.urls import reverse
+from django.http import HttpResponseRedirect
+from django.contrib.auth.decorators import login_required
+
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from django.conf import settings
 
@@ -12,6 +19,8 @@ from django.conf import settings
 def index(request):
     return HttpResponse('<h1>Madu</h1>')
 
+
+@login_required(login_url='/login/')
 def uploader(request):
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
@@ -24,7 +33,7 @@ def uploader(request):
         c=0
         mem = []
         dicti={}
-        print("I reached my waypoint")
+        #print("I reached my waypoint")
         while True:
             line = file.readline()
             x = re.search(r"(\d.*?\,.*?-.*?\:)", line)
@@ -44,12 +53,8 @@ def uploader(request):
                     mem.append(r)
                     up = {r:1}
                     dicti.update(up)
-
-
-
             if not line:
                 z=0
-                
                 break
         for i in dicti :  
             z+=dicti[i]
@@ -64,7 +69,7 @@ def uploader(request):
             redirect('login')
     return render(request, 'form.html')
         
-def login(request):
+def user_login(request):
     if request.method == "POST":
 
         print(settings.MEDIA_ROOT)
@@ -103,7 +108,7 @@ def register(request):
                 messages.info(request , "Phone NUmber Already Exisits")
                 return redirect('/login')
             else:
-                user = User.objects.create_user(first_name = first_name, last_name=last_name,username=phone_number, email=email,password=password)
+                user = User.objects.create_user(first_name = first_name, last_name=last_name,username=email, phonenumber=phone_number,password=password)
                 user.save()
                 redirect('/login')
         else:
@@ -112,6 +117,8 @@ def register(request):
         return redirect('/login')
     else:
         return render(request , 'register.html')
-    
-def logout(request):
-    pass
+
+def user_logout(request):
+    if request.method == "POST":
+        logout(request)
+        return HttpResponseRedirect(reverse('login'))

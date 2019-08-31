@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <html lang="en">
@@ -6,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="StyleSheet" type="text/css" href="{% static 'style/main.css'%}">
 </head><body>  
     
-    <h3>Hello! {{user.last_name}}</h3>
+    <h3>Hello! {{user.username}}</h3>
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <input type="file" name="myfile">
@@ -20,9 +22,9 @@
             {% endfor %}
         </div>
 
-<form method="POST">
+<form method="POST" action="/logout/">
     {% csrf_token %}
-    <button type="submit" name="login">Login</button>
+    <button type="submit" name="Logout">Logout</button>
 </form>
 
         </body>  
