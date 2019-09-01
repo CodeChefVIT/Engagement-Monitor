@@ -1,10 +1,9 @@
-{% extends 'base.html' %}
 
 <script>
 {% block jquery %}
-var endpoint = '/cha/'
+var endpoint = '/api/chart/data/'
 var defaultData = []
-var labels = [];
+var labels = []
 $.ajax({
     method: "GET",
     url: endpoint,
@@ -18,6 +17,7 @@ $.ajax({
         console.log(error_data)
     }
 })
+
 function setChart(){
     var ctx = document.getElementById("myChart");
     var ctx2 = document.getElementById("myChart2");
@@ -103,24 +103,8 @@ function setChart(){
 </script>
 
 {% block content %}
-<h3>Hello! {{user.username}}</h3>
-<form method="post"  enctype="multipart/form-data">
-    {% csrf_token %}
-    <input type="file" name="myfile">
-    <button type="submit">Upload</button>
-  </form>
-  <div>
-    {% for message in messages %}
-    <h3>{{message}}</h3>
-    {% endfor %}
-</div>
 
-<form method="POST" action="/logout/">
-{% csrf_token %}
-<button type="submit" name="Logout">Logout</button>
-</form>
 <div class='row'>
-    <h3>{{labels}} {{defaultData}}</h3>
     <div class='col-sm-12' url-endpoint='{% url "api-data" %}'>
         <h1>Hello World</h1>
         <div class='col-sm-6'>

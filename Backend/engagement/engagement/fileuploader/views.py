@@ -14,12 +14,14 @@ from rest_framework.response import Response
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from django.conf import settings
 from django.views.generic import View
+import json
 
 # Create your views here.
 def index(request):
     return HttpResponse('<h1>Madu</h1>')
-@login_required 
-def dashboard(request):
+
+@login_required(login_url='/login/')
+def dashboard(request,methods=['POST', 'GET']):
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
         fs = FileSystemStorage()
@@ -61,6 +63,7 @@ def dashboard(request):
         messages.info(request , dicti)
         file.close()
         os.remove(file1)
+        return json.dumps({"Name":dicti.keys(),"Messages":dicti.values()}),200
     elif request.method == 'POST':
         value=request.POST['login']
         if value is not None:
@@ -110,6 +113,11 @@ def uploader(request):
         messages.info(request , dicti)
         file.close()
         os.remove(file1)
+        data = {
+        "sales": dicti.keys(),
+        "customers": dicti.values(),
+        }
+        return JsonResponse(data)
     elif request.method == 'POST':
         value=request.POST['login']
         if value is not None:
@@ -170,27 +178,52 @@ def user_logout(request):
         logout(request)
         return HttpResponseRedirect(reverse('login'))
 
-class HomeView(View):
-    def get(self, request, *args, **kwargs):
-        return render(request, 'charts.html', {"customers": 10})
-
-def get_data(request, *args, **kwargs):
-    data = {
-        "sales": 100,
-        "customers": 10,
-    }
-    return JsonResponse(data) # http response
-
 class ChartData(APIView):
     authentication_classes = []
     permission_classes = []
 
     def get(self, request, format=None):
-        qs_count = User.objects.all().count()
-        labels = ["Users", "Blue", "Yellow", "Green", "Purple", "Orange"]
-        default_items = [qs_count, 23, 2, 6, 12, 2]
-        data = {
-                "labels": labels,
-                "default": default_items,
-        }
-        return Response(data)
+        if request.method == 'POST' and request.FILES['myfile']:
+            myfile = request.FILES['myfile']
+            fs = FileSystemStorage()
+            filename = fs.save(myfile.name, myfile)
+            print(filename)
+            file1 = os.path.join(settings.MEDIA_ROOT, myfile.name)
+            print(file1)
+            file = open(file1,encoding="utf8")
+            c=0
+            mem = []
+            dicti={}
+            #print("I reached my waypoint")
+            while True:
+                line = file.readline()
+                x = re.search(r"(\d.*?\,.*?-.*?\:)", line)
+                if x:
+                    r = re.search(r"(-.*?:)",x.group()).group()[2:-1]
+                    c+=1
+
+                    if (r in mem): 
+                        #print ("Member Exists") 
+                        for i in dicti:
+                            if(i==r):
+                                a = dicti[i]
+                                up = {r:a+1}
+                                dicti.update(up)
+                                #print(up)
+                    else:
+                        mem.append(r)
+                        up = {r:1}
+                        dicti.update(up)
+                if not line:
+                    z=0
+                    break
+            for i in dicti :  
+                z+=dicti[i]
+            print(dicti)
+            print(z,c)
+            messages.info(request , dicti)
+            file.close()
+            os.remove(file1)
+            return Response({"labels":dicti.keys(),"defaultData":dicti.values()})
+        return render(request,"dashboard.html")
+        

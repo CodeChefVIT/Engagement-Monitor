@@ -1,4 +1,6 @@
 from django.urls import path
+from django.conf.urls import url
+
 from django.conf import settings
 from django.conf.urls.static import static
 from . import views
@@ -8,10 +10,8 @@ urlpatterns = [
     path('login/',views.user_login,name='login'),
     path('logout/',views.user_logout,name='logout'),
     path('register/',views.register,name='register'),
-    path('api/chart/data/', views.ChartData.as_view(),name="chart"),
-    path('cha/', views.HomeView.as_view(), name='home'),
-    path('api/data/', views.get_data, name='api-data'),
-    path('dash/',views.dashboard,name="dash")
+    path('cha/', views.ChartData.as_view(),name="chart"),
+    path('dash/', views.dashboard, name="dash")
 ]
 
 if settings.DEBUG:
