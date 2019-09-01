@@ -7,8 +7,11 @@ urlpatterns = [
     path('up/',views.uploader,name='uploader'),
     path('login/',views.user_login,name='login'),
     path('logout/',views.user_logout,name='logout'),
-    path('register/',views.register,name='register')
-
+    path('register/',views.register,name='register'),
+    path('api/chart/data/', views.ChartData.as_view(),name="chart"),
+    path('cha/', views.HomeView.as_view(), name='home'),
+    path('api/data/', views.get_data, name='api-data'),
+    path('dash/',views.dashboard,name="dash")
 ]
 
 if settings.DEBUG:
