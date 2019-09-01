@@ -6,7 +6,6 @@ from django.contrib import messages
 from django.contrib.auth import authenticate,login,logout
 import os
 import re
-import time
 from django.urls import reverse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
