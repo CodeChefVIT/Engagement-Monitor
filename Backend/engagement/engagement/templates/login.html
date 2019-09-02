@@ -1,22 +1,68 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <link rel="icon" href="{% static 'img/favicon.png' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+        defer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>Login || Engagement Monitor</title>
 </head>
+
 <body>
-        <form method="POST">
-            {% csrf_token %}
-            <input type="text" name="number">
-            <input type="password" name="password">
-            <button type="submit">Login</button>
-          </form>
-          <div>
+
+    <div class="container">
+        <div class="text-center">
+            <div style="margin-top: 15vh;margin-bottom: 1vh;">
+                <h1>Login</h1>
+                <p>Please login to continue</p>
+            </div>
+            <div class="signup-form">
+                <form method="POST" class="form" name="login" style="box-shadow: 0px 1px 5px black;">
+                    {% csrf_token %}
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p align="left"><b>Username:</b></p>
+                            <input type="text" name="username" class="form-control" placeholder="Enter Your Username"
+                                required>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <p align="left"><b>Password:</b></p>
+                            <input type="password" name="password" class="form-control"
+                                placeholder="Enter Your Password" required>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn">Login</button>
+                    </div>
+                </form>
+            </div>
+            <div>
                 {% for message in messages %}
                 <h3>{{message}}</h3>
                 {% endfor %}
             </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
