@@ -1,34 +1,35 @@
 body {
-  background: #ffea92;
+  background: whitesmoke;
   margin: 0;
   font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: #fff;
+  color: #273593;
   padding-left: 240px;
 }
+
 main {
   position: relative;
   height: 100vh;
 }
-main .helper {
+
+main .file-bg {
   background: rgba(0, 0, 0, 0.2);
-  color: #ffea92;
+  color: whitesmoke;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
   padding: 1.2em 2em;
   text-align: center;
   border-radius: 20px;
   font-size: 15px;
   font-weight: bold;
 }
-main .helper span {
+
+main .file-bg span {
   color: rgba(0, 0, 0, 0.2);
   font-size: 0.4em;
   display: block;
 }
+
 .menu {
-  background: #5bc995;
+  background: #273592;
   height: 100vh;
   width: 240px;
   position: fixed;
@@ -37,27 +38,32 @@ main .helper span {
   z-index: 5;
   outline: none;
 }
-.menu .avatar {
+
+.menu .logo {
   background: rgba(0, 0, 0, 0.1);
   padding: 2em 0.5em;
   text-align: center;
 }
-.menu .avatar img {
+
+.menu .logo img {
   width: 100px;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid #ffea92;
+  border: 4px solid #5367e6;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
 }
-.menu .avatar h2 {
+
+.menu .logo h2 {
   font-weight: normal;
   margin-bottom: 0;
 }
+
 .menu ul {
   list-style: none;
   padding: 0.5em 0;
   margin: 0;
 }
+
 .menu ul li {
   padding: 0.5em 1em 0.5em 3em;
   font-size: 0.95em;
@@ -68,39 +74,50 @@ main .helper span {
   transition: all 0.15s linear;
   cursor: pointer;
 }
+
 .menu ul li.icon-dashboard {
   background-image: url("http://www.entypo.com/images//gauge.svg");
 }
+
 .menu ul li.icon-customers {
   background-image: url("http://www.entypo.com/images//briefcase.svg");
 }
+
 .menu ul li.icon-users {
   background-image: url("http://www.entypo.com/images//users.svg");
 }
+
 .menu ul li.icon-settings {
   background-image: url("http://www.entypo.com/images//tools.svg");
 }
+
 .menu ul li:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 .menu ul li:focus {
   outline: none;
 }
+
 @media screen and (max-width: 900px) and (min-width: 400px) {
   body {
     padding-left: 90px;
   }
+
   .menu {
     width: 90px;
   }
-  .menu .avatar {
+
+  .menu .logo {
     padding: 0.5em;
     position: relative;
   }
-  .menu .avatar img {
+
+  .menu .logo img {
     width: 60px;
   }
-  .menu .avatar h2 {
+
+  .menu .logo h2 {
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -112,16 +129,19 @@ main .helper span {
     transform: translate3d(-20px, -50%, 0);
     transition: all 0.15s ease-in-out;
   }
-  .menu .avatar:hover h2 {
+
+  .menu .logo:hover h2 {
     opacity: 1;
     transform: translate3d(0px, -50%, 0);
   }
+
   .menu ul li {
     height: 60px;
     background-position: center center;
     background-size: 30px auto;
     position: relative;
   }
+
   .menu ul li span {
     opacity: 0;
     position: absolute;
@@ -133,6 +153,7 @@ main .helper span {
     transform: translate3d(-15px, -50%, 0);
     transition: all 0.15s ease-in-out;
   }
+
   .menu ul li span:before {
     content: '';
     width: 0;
@@ -145,28 +166,33 @@ main .helper span {
     border-right: 5px solid rgba(0, 0, 0, 0.5);
     transform: translateY(-50%);
   }
+
   .menu ul li:hover span {
     opacity: 1;
     transform: translate3d(0px, -50%, 0);
   }
 }
+
 @media screen and (max-width: 400px) {
   body {
     padding-left: 0;
   }
+
   .menu {
     width: 230px;
     box-shadow: 0 0 0 100em rgba(0, 0, 0, 0);
     transform: translate3d(-230px, 0, 0);
     transition: all 0.3s ease-in-out;
   }
+
   .menu .smartphone-menu-trigger {
     width: 40px;
     height: 40px;
     position: absolute;
     left: 100%;
-    background: #5bc995;
+    background: #273592;
   }
+
   .menu .smartphone-menu-trigger:before,
   .menu .smartphone-menu-trigger:after {
     content: '';
@@ -179,19 +205,35 @@ main .helper span {
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
   }
+
   .menu .smartphone-menu-trigger:after {
     top: 55%;
     transform: translate3d(-50%, -50%, 0);
   }
+
   .menu ul li {
     padding: 1em 1em 1em 3em;
     font-size: 1.2em;
   }
+
   .menu:focus {
     transform: translate3d(0, 0, 0);
     box-shadow: 0 0 0 100em rgba(0, 0, 0, 0.6);
   }
+
   .menu:focus .smartphone-menu-trigger {
     pointer-events: none;
   }
+}
+
+.newcol {
+  color: white;
+}
+
+.footer {
+  background-color: #273592;
+  color: white;
+  position: fixed;
+  padding: 20px;
+  bottom: 0;
 }
