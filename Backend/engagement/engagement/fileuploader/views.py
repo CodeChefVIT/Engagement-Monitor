@@ -176,7 +176,7 @@ def register(request):
 def user_logout(request):
     if request.method == "POST":
         logout(request)
-        return HttpResponseRedirect(reverse('login'))
+        return redirect('/login')
 
 class ChartData(APIView):
     authentication_classes = []
