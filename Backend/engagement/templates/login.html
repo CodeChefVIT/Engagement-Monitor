@@ -13,6 +13,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>Login || Engagement Monitor</title>
 </head>
 
@@ -20,37 +21,41 @@
 
     <div class="container">
         <div class="text-center">
-            <div style="margin-top: 15vh;margin-bottom: 1vh;">
+            <div style="margin-top: 11vh;" class="animated bounceInLeft">
                 <h1>Login</h1>
                 <p>Please login to continue</p>
             </div>
+            <div>
+                {% for message in messages %}
+                <p style="color: red;font-weight: bold;">{{message}}</p>
+                {% endfor %}
+            </div>
             <div class="signup-form">
-                <form method="POST" class="form" name="login" style="box-shadow: 0px 1px 5px black;">
+                <form method="POST" class="form animated slideInLeft" name="login"
+                    style="box-shadow: 0px 1px 5px black;">
                     {% csrf_token %}
                     <div class="col-md-12">
-                        <div class="form-group">
+                        <div class="form-group animated slideInDown">
                             <p align="left"><b>Username:</b></p>
                             <input type="text" name="username" class="form-control" placeholder="Enter Your Username"
                                 required>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group">
+                        <div class="form-group animated slideInDown">
                             <p align="left"><b>Password:</b></p>
                             <input type="password" name="password" class="form-control"
                                 placeholder="Enter Your Password" required>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn">Login</button>
+                        <button type="submit" class="btn animated slideInUp">Login</button>
                     </div>
                 </form>
             </div>
-            <div>
-                {% for message in messages %}
-                <h3>{{message}}</h3>
-                {% endfor %}
-            </div>
+            <a href="/register">
+                <p class="animated rotateInDownRight">Don't have an account? Register here!</p>
+            </a>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
