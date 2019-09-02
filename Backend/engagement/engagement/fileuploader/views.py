@@ -128,10 +128,10 @@ def user_login(request):
     if request.method == "POST":
 
         print(settings.MEDIA_ROOT)
-        phone = request.POST['number']
+        username = request.POST['username']
         password =  request.POST['password']
         print(password)
-        user = auth.authenticate(username=phone,password=password)
+        user = auth.authenticate(username=username,password=password)
         print(user)
         if user is not None:
             auth.login(request, user)
@@ -140,7 +140,7 @@ def user_login(request):
         else:
             messages.info(request, "Wrong Credentials")
             return redirect('login')
-        return redirect('/up')
+        return redirect('/dash')
     else:
         return render(request, 'login.html')
 
