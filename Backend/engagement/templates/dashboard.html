@@ -59,14 +59,27 @@
     <div class="col-md-12">
       <div class="container">
         <div class="text-center">
-            <form method="post" enctype="multipart/form-data" class="animated slideInLeft" style="padding: 20px;background-color:rgba(0, 0, 0, 0.2);border-radius: 30px;">
-              {% csrf_token %}
-              <input type="file" name="myfile">
-              <button type="submit" class="btn">Upload</button>
-            </form>
-          </div>
+          <form method="post" enctype="multipart/form-data" class="animated slideInLeft"
+            style="padding: 20px;background-color:rgba(0, 0, 0, 0.2);border-radius: 30px;">
+            {% csrf_token %}
+            <div class="os-type">
+              <p style="color:black;">Please choose the OS from which the chat was exported:</p>
+              <label style="color: black;">iOS</label>
+              <input type="radio" name="OS" value="iOS" style="margin-left:10px;margin-right:10px;">
+              <label style="color: black;">Android</label>
+              <input type="radio" name="OS" value="Android" style="margin-left:10px;margin-right:10px;">
+            </div>
+            <br>
+            <p style="color: black;">Please upload the original .txt files only:</p>
+            <input type="file" name="myfile" accept=".txt">
+            <button type="submit" class="btn">Upload</button>
+          </form>
+          {% for message in messages %}
+          <h5 style="color: black;">{{message}}</h5>
+          {% endfor %}
         </div>
       </div>
+    </div>
   </main>
 
   <div class="footer">
