@@ -1,5 +1,3 @@
-# Engagement Monitor
-
 ![Engagement Monitor Logo](https://github.com/akshatvg/engagement-monitor/blob/master/Backend/engagement/static/img/Logo.png "Engagement Monitor Logo")
 
 ### What is Engagement Monitor?
@@ -20,7 +18,7 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 5) Saves time checking statistics of member activity.
 
 
-### Steps to use Engagement Monitor:
+### Steps to run Engagement Monitor:
 
 #### On MacOS:
 ```
