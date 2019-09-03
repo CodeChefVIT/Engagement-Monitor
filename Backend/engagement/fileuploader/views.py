@@ -9,16 +9,16 @@ import re
 from django.urls import reverse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
-from rest_framework.views import APIView
-from rest_framework.response import Response
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from django.conf import settings
 from django.views.generic import View
 import json
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
 # Create your views here.
 def index(request):
-    return HttpResponse('<h1>Madu</h1>')
+    return render(request,"ajax_trial.html")
 
 @login_required(login_url='/login/')
 def dashboard(request,methods=['POST', 'GET']):
@@ -63,7 +63,11 @@ def dashboard(request,methods=['POST', 'GET']):
         messages.info(request , dicti)
         file.close()
         os.remove(file1)
-        return json.dumps({"Name":dicti.keys(),"Messages":dicti.values()}),200
+        final_data = {
+                "phon" : dicti.keys(),
+                "msgs" : dicti.values()
+            }
+        return render(request,"dashboard.html",final_data)
     elif request.method == 'POST':
         value=request.POST['login']
         if value is not None:
@@ -177,53 +181,3 @@ def user_logout(request):
     if request.method == "POST":
         logout(request)
         return redirect('/login')
-
-class ChartData(APIView):
-    authentication_classes = []
-    permission_classes = []
-
-    def get(self, request, format=None):
-        if request.method == 'POST' and request.FILES['myfile']:
-            myfile = request.FILES['myfile']
-            fs = FileSystemStorage()
-            filename = fs.save(myfile.name, myfile)
-            print(filename)
-            file1 = os.path.join(settings.MEDIA_ROOT, myfile.name)
-            print(file1)
-            file = open(file1,encoding="utf8")
-            c=0
-            mem = []
-            dicti={}
-            #print("I reached my waypoint")
-            while True:
-                line = file.readline()
-                x = re.search(r"(\d.*?\,.*?-.*?\:)", line)
-                if x:
-                    r = re.search(r"(-.*?:)",x.group()).group()[2:-1]
-                    c+=1
-
-                    if (r in mem): 
-                        #print ("Member Exists") 
-                        for i in dicti:
-                            if(i==r):
-                                a = dicti[i]
-                                up = {r:a+1}
-                                dicti.update(up)
-                                #print(up)
-                    else:
-                        mem.append(r)
-                        up = {r:1}
-                        dicti.update(up)
-                if not line:
-                    z=0
-                    break
-            for i in dicti :  
-                z+=dicti[i]
-            print(dicti)
-            print(z,c)
-            messages.info(request , dicti)
-            file.close()
-            os.remove(file1)
-            return Response({"labels":dicti.keys(),"defaultData":dicti.values()})
-        return render(request,"dashboard.html")
-        
