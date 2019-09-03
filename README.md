@@ -23,9 +23,10 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 #### On MacOS:
 ```
 1) git clone https://github.com/CodeChefVIT/engagement-monitor.git
-2) pip install requirements.txt
-3) cd engagement-monitor/Backend/engagement/venv
-4) source bin/activate
-5) cd ..
-6) python3 manage.py runserver
+2) cd engagement-monitor
+3) pip install -r requirements.txt
+4) cd Backend/engagement/venv
+5) source bin/activate
+6) cd ..
+7) python3 manage.py runserver
 ```
