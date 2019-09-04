@@ -30,3 +30,16 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 6) cd ..
 7) python3 manage.py runserver
 ```
+
+#### On Windows:
+```
+1) git clone https://github.com/CodeChefVIT/engagement-monitor.git
+2) cd engagement-monitor
+3) pip install -r requirements.txt
+4) cd Backend
+5) engage/Scripts/activate
+6) cd engagement
+7) python3 manage.py makemigrations
+8) python3 manage.py migrate
+9) python3 manage.py runserver
+```
