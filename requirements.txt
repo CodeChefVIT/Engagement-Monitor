@@ -1,0 +1,12 @@
+Django==2.2.4
+djangorestframework==3.10.2
+dnspython==1.16.0
+optional-django==0.3.0
+pymongo==3.8.0
+s3transfer==0.2.0
+simplejson==3.16.0
+sqlparse==0.3.0
+virtualenv==16.6.0
+virtualenv-clone==0.5.3
+virtualenvwrapper==4.8.4
+websocket-client==0.48.0
