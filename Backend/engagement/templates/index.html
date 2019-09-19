@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% for post in post_list %}
+            {% if user.username == post.user_name %}
+                    <h2 >{{ post.file_name }}</h2>
+                    <p >{{ post.user_name }} | {{ post.created_on}} </p>
+
+                    <p >{{ post.one }}</p>
+                    <p>{{ post.two }}</p>
+                    <p>{{ post.three }}</p>
+            {%endif%}
+        
+            {% endfor %}
+</body>
+</html>

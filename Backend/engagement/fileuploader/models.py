@@ -14,10 +14,17 @@ class MyMedia(models.Model):
 
 
 
-class Search(models.Model):
-    user_name =  models.CharField(max_length=50, default="", editable=False)
-    file_name = models.CharField( max_length = 100 )
+
+    
+class Post(models.Model):
+    user_name = models.CharField(max_length=200, unique=False)
+    slug = models.SlugField(max_length=200, unique=True)
+    file_name = models.TextField()
     one = models.CharField( max_length = 100 )
     two = models.CharField( max_length = 100 )
     three = models.CharField( max_length = 100 )
+    created_on = models.DateTimeField(auto_now_add=True)
+    class Meta:
+        ordering = ['-created_on']
+
     

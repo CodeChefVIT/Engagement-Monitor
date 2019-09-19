@@ -1,2 +1,7 @@
 .vscode
 nm
+backend/engage
+backend/engagement/engagement/__pycache__
+backend/engagement/fileuploader/__pycache__
+backend/engagement/fileuploader/migrations
+

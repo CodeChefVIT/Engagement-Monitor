@@ -14,7 +14,8 @@ from django.views.generic import View
 import json
 import collections
 import operator
-from . import models
+from .models import Post
+from django.views import generic
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -26,6 +27,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def index(request):
     return render(request,"ajax_trial.html")
 
+def user(request):
+    return request.session.get('count')
+class PostList(generic.ListView,View):
+    model = Post
+    Post.objects.order_by('-created_on').all()
+    template_name = 'index.html'
+    
 @login_required(login_url='/login/')
 def dashboard(request,methods=['POST', 'GET']):
     if request.method == 'POST' and request.FILES['myfile']:
@@ -68,8 +76,8 @@ def dashboard(request,methods=['POST', 'GET']):
         s = [(k, dicti[k]) for k in sorted(dicti, key=dicti.get, reverse=True)]
         f_dicti={}
         #print(s)
-        Convert(s, f_dicti)
-        print(z,c)
+        s = Convert(s, f_dicti)
+        print("Gz",s)
         string=''
         num = ''
         for i in dicti:
@@ -81,11 +89,11 @@ def dashboard(request,methods=['POST', 'GET']):
         request.session['num'] = num
 
         user = User.objects.get(username=request.user.username)
-        '''
-        one = str(f_dicti.keys()[0]) + ":"+ str(f_dicti.values()[0])
-        two = str(f_dicti.keys()[1]) + ":"+ str(f_dicti.values()[1])
-        three = str(f_dicti.keys()[2]) + ":"+ str(f_dicti.values()[2])'''
-        user1 = models.Search(user_name = user, file_name=filename,one="FO1", two="two",three="three")
+        print(user)
+        one = str(list(iter(s))[0]) + ":"+ str(s.get(list(iter(s))[0]))
+        two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[0]))
+        three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[0]))
+        user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
         user1.save()
         file.close()
         os.remove(file1)
@@ -111,6 +119,8 @@ def user_login(request):
         print(settings.MEDIA_ROOT)
         username = request.POST['username']
         password =  request.POST['password']
+        request.session['user'] = username
+
         print(password)
         user = auth.authenticate(username=username,password=password)
         print(user)
@@ -131,6 +141,7 @@ def register(request):
     if request.method == "POST":
         first_name = request.POST['fname']
         email = request.POST['email']
+
         phone_number = request.POST['lname']
         password =  request.POST['password']
         confirm_password =  request.POST['cpassword']

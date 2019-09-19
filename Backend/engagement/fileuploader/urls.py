@@ -14,6 +14,7 @@ urlpatterns = [
     url(r'^chart/$', views.HomeView.as_view(), name='home'),
     url(r'^api/data/$', views.get_data, name='api-data'),
     url(r'^api/chart/data/$', views.ChartData.as_view()),
+    path('', views.PostList.as_view(), name='post'),
 
     
 ]
