@@ -1,8 +1,9 @@
+  
 {% extends 'base1.html' %}
 
 <script>
 {% block jquery %}
-var endpoint = '/api/chart/data/'
+var endpoint = '/api/data/'
 var defaultData = []
 var labels = [];
 $.ajax({
@@ -26,7 +27,7 @@ function setChart(){
     data: {
         labels: labels,
         datasets: [{
-            label: 'Messages',
+            label: '# of Votes',
             data: defaultData,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -62,7 +63,7 @@ function setChart(){
     data: {
         labels: labels,
         datasets: [{
-            label: '# No.of Messages',
+            label: '# of Votes',
             data: defaultData,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -102,9 +103,13 @@ function setChart(){
 
 <div class='row'>
     <div class='col-sm-12' url-endpoint='{% url "api-data" %}'>
-        <h1>Chart</h1>
-        
-            <canvas id="myChart2"   ></canvas>
+        <h1>Hello World</h1>
+        <div class='col-sm-6'>
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+        <div class='col-sm-6'>
+            <canvas id="myChart2" width="400" height="400"></canvas>
+        </div>
 
 
     </div>

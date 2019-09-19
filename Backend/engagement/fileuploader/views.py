@@ -12,6 +12,12 @@ from django.contrib.auth.decorators import login_required
 from django.conf import settings
 from django.views.generic import View
 import json
+import collections
+import operator
+from . import models
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -58,15 +64,36 @@ def dashboard(request,methods=['POST', 'GET']):
                 break
         for i in dicti :  
             z+=dicti[i]
-        print(dicti)
+            
+        s = [(k, dicti[k]) for k in sorted(dicti, key=dicti.get, reverse=True)]
+        f_dicti={}
+        #print(s)
+        Convert(s, f_dicti)
         print(z,c)
-        messages.info(request , dicti)
+        string=''
+        num = ''
+        for i in dicti:
+            string += str(dicti[i]) + " ;;; "
+            num += i + " ;;; "
+        messages.info(request , string)
+        print(string)
+        request.session['count'] = string
+        request.session['num'] = num
+
+        user = User.objects.get(username=request.user.username)
+        '''
+        one = str(f_dicti.keys()[0]) + ":"+ str(f_dicti.values()[0])
+        two = str(f_dicti.keys()[1]) + ":"+ str(f_dicti.values()[1])
+        three = str(f_dicti.keys()[2]) + ":"+ str(f_dicti.values()[2])'''
+        user1 = models.Search(user_name = user, file_name=filename,one="FO1", two="two",three="three")
+        user1.save()
         file.close()
         os.remove(file1)
         final_data = {
-                "phon" : dicti.keys(),
-                "msgs" : dicti.values()
+                "phon" : f_dicti.keys(),
+                "msgs" : f_dicti.values()
             }
+        #request.session['data'] = final_data
         return render(request,"dashboard.html",final_data)
     elif request.method == 'POST':
         value=request.POST['login']
@@ -74,60 +101,10 @@ def dashboard(request,methods=['POST', 'GET']):
             redirect('login')
     return render(request, 'dashboard.html')
 
-@login_required(login_url='/login/')
-def uploader(request):
-    if request.method == 'POST' and request.FILES['myfile']:
-        myfile = request.FILES['myfile']
-        fs = FileSystemStorage()
-        filename = fs.save(myfile.name, myfile)
-        print(filename)
-        file1 = os.path.join(settings.MEDIA_ROOT, myfile.name)
-        print(file1)
-        file = open(file1,encoding="utf8")
-        c=0
-        mem = []
-        dicti={}
-        #print("I reached my waypoint")
-        while True:
-            line = file.readline()
-            x = re.search(r"(\d.*?\,.*?-.*?\:)", line)
-            if x:
-                r = re.search(r"(-.*?:)",x.group()).group()[2:-1]
-                c+=1
-
-                if (r in mem): 
-                    #print ("Member Exists") 
-                    for i in dicti:
-                        if(i==r):
-                            a = dicti[i]
-                            up = {r:a+1}
-                            dicti.update(up)
-                            #print(up)
-                else:
-                    mem.append(r)
-                    up = {r:1}
-                    dicti.update(up)
-            if not line:
-                z=0
-                break
-        for i in dicti :  
-            z+=dicti[i]
-        print(dicti)
-        print(z,c)
-        messages.info(request , dicti)
-        file.close()
-        os.remove(file1)
-        data = {
-        "sales": dicti.keys(),
-        "customers": dicti.values(),
-        }
-        return JsonResponse(data)
-    elif request.method == 'POST':
-        value=request.POST['login']
-        if value is not None:
-            redirect('login')
-    return render(request, 'form.html')
-        
+def Convert(tup, di): 
+    di = dict(tup) 
+    return di 
+      
 def user_login(request):
     if request.method == "POST":
 
@@ -153,9 +130,8 @@ def user_login(request):
 def register(request):
     if request.method == "POST":
         first_name = request.POST['fname']
-        last_name = request.POST['lname']
         email = request.POST['email']
-        phone_number = request.POST['number']
+        phone_number = request.POST['lname']
         password =  request.POST['password']
         confirm_password =  request.POST['cpassword']
         
@@ -167,7 +143,7 @@ def register(request):
                 messages.info(request , "Phone NUmber Already Exisits")
                 return redirect('/login')
             else:
-                user = User.objects.create_user(first_name = first_name, last_name=last_name,username=email, phonenumber=phone_number,password=password)
+                user = User.objects.create_user(first_name = first_name, last_name=phone_number,username=email, password=password)
                 user.save()
                 redirect('/login')
         else:
@@ -181,3 +157,55 @@ def user_logout(request):
     if request.method == "POST":
         logout(request)
         return redirect('/login')
+
+def chart_view(request, *args, **kwargs):
+    data_string = request.session.get('data')
+    data_string.split(" ;;; ")
+    print(data_string)
+    data = {
+        "sales": 100,
+        "customers": 10,
+    }
+    return JsonResponse(data)
+
+class HomeView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'charts.html', {"customers": 10})
+
+
+
+def get_data(request, *args, **kwargs):
+    data = {
+        "sales": 100,
+        "customers": 10,
+    }
+    return JsonResponse(data) # http response
+
+
+class ChartData(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        stri = request.session.get('count')
+        num = request.session.get('num')
+        try:
+            stri = stri.split(" ;;; ")
+            num = num.split(" ;;; ")
+        except AttributeError:
+            pass
+        print(stri)
+        print(num)
+        int_num = []
+        for i in stri:
+            try:
+                print(i)
+                int_num.append(int(i))
+            except ValueError:
+                pass
+        print(num,stri)
+        data = {
+                "labels": num,
+                "default": int_num,
+        }
+        return Response(data)

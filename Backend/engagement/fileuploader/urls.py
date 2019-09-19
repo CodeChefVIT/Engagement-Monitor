@@ -11,6 +11,11 @@ urlpatterns = [
     path('register/',views.register,name='register'),
     path('dash/', views.dashboard, name="dash"),
     path('ind/',views.index,name="index"),
+    url(r'^chart/$', views.HomeView.as_view(), name='home'),
+    url(r'^api/data/$', views.get_data, name='api-data'),
+    url(r'^api/chart/data/$', views.ChartData.as_view()),
+
+    
 ]
 
 if settings.DEBUG:
