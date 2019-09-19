@@ -1,7 +1,6 @@
 .vscode
 nm
-backend/engage
-backend/engagement/engagement/__pycache__
-backend/engagement/fileuploader/__pycache__
-backend/engagement/fileuploader/migrations
+engagement/engagement/__pycache__
+engagement/fileuploader/__pycache__
+engagement/fileuploader/migrations
 
