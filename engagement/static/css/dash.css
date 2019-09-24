@@ -237,3 +237,11 @@ main .file-bg span {
   padding: 20px;
   bottom: 0;
 }
+
+.modal-dialog {
+  vertical-align: middle;
+}
+
+.modal:before {
+  vertical-align: middle;
+}
