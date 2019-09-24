@@ -1,4 +1,4 @@
-![Engagement Monitor Logo]( "Engagement Monitor Logo")
+![Engagement Monitor Logo](https://github.com/akshatvg/engagement-monitor/blob/master/engagement/static/img/Logo.png "Engagement Monitor Logo")
 
 ### What is Engagement Monitor?
 Engagement Monitor is a web application which helps analyse active or disinterested members of a WhatsApp group.
