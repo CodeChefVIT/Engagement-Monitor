@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="{% static 'css/main.css' %}">
   <link rel="stylesheet" href="{% static 'css/dash.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
   <title>Graphical Representation || Engagement Monitor</title>
   <script>
     var phn = "{{ phon }}";
@@ -37,7 +38,12 @@
         <li tabindex="0" class="icon-dashboard animated rotateInDownLeft"><span class="newcol">Dashboard</span></li>
       </a>
       <a href="/chart" style="text-decoration: none;">
-        <li tabindex="0" class="icon-users animated rotateInDownLeft"><span class="newcol">Graphical
+        <li tabindex="0" class="icon-users animated rotateInDownLeft"><span class="newcol">Bar Graph
+            Representation</span>
+        </li>
+      </a>
+      <a href="/piechart" style="text-decoration: none;">
+        <li tabindex="0" class="icon-users animated rotateInDownLeft"><span class="newcol">Pie Graph
             Representation</span>
         </li>
       </a>

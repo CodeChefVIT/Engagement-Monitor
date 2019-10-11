@@ -248,7 +248,9 @@ class HomeView(View):
     def get(self, request, *args, **kwargs):
         return render(request, 'charts.html', {"customers": 10})
 
-
+class PieView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'piecharts.html', {"customers": 10})
 
 def get_data(request, *args, **kwargs):
     data = {
