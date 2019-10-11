@@ -96,8 +96,8 @@ def dashboard(request,methods=['POST', 'GET']):
             one = str(list(iter(s))[0]) + ":"+ str(s.get(list(iter(s))[0]))
             two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[0]))
             three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[0]))
-            #user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
-            #user1.save()
+            wser1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
+            wser1.save()
             file.close()
             os.remove(file1)
             final_data = {
@@ -157,8 +157,8 @@ def dashboard(request,methods=['POST', 'GET']):
             one = str(list(iter(s))[0]) + ":"+ str(s.get(list(iter(s))[0]))
             two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[0]))
             three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[0]))
-            #user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
-            #user1.save()
+            user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
+            print(user1.save())
             file.close()
             os.remove(file1)
             final_data = {

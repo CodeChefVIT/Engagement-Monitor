@@ -18,7 +18,7 @@ class MyMedia(models.Model):
     
 class Post(models.Model):
     user_name = models.CharField(max_length=200, unique=False)
-    slug = models.SlugField(max_length=200, unique=False)
+    slug = models.SlugField(unique=True, default=uuid.uuid1)
     file_name = models.TextField()
     one = models.CharField( max_length = 100 )
     two = models.CharField( max_length = 100 )
