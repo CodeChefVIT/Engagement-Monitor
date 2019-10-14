@@ -6,3 +6,5 @@ engagement/fileuploader/migrations
 .env
 venv
 env
+__pycache__
+.pyc
