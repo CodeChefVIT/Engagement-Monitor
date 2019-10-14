@@ -32,7 +32,7 @@ def user(request):
 class PostList(generic.ListView,View):
     model = Post
     Post.objects.order_by('-created_on').all()
-    template_name = 'index.html'
+    template_name = 'counts.html'
     
 @login_required(login_url='/login/')
 def dashboard(request,methods=['POST', 'GET']):
@@ -261,6 +261,35 @@ def get_data(request, *args, **kwargs):
 
 
 class ChartData(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        stri = request.session.get('count')
+        num = request.session.get('num')
+        try:
+            stri = stri.split(" ;;; ")
+            num = num.split(" ;;; ")
+        except AttributeError:
+            pass
+        print(stri)
+        print(num)
+        int_num = []
+        for i in stri:
+            try:
+                print(i)
+                int_num.append(int(i))
+            except ValueError:
+                pass
+        print(num,stri)
+        data = {
+                "labels": num,
+                "default": int_num,
+        }
+        return Response(data)
+
+
+class PieChartData(APIView):
     authentication_classes = []
     permission_classes = []
 
