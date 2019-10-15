@@ -29,7 +29,8 @@
 
     <header class="logo mt-2">
       <a href="/dash" class="animated lightSpeedIn"><img src="{% static 'img/Logo.png' %}" /></a>
-      <h4 style="text-transform: capitalize; color: white;" class="mt-3 animated rotateInDownRight">Hi {{user.username}}
+      <h4 style="text-transform: capitalize; color: white;" class="mt-3 animated rotateInDownRight">Hi
+        <br>{{user.username}}
       </h4>
     </header>
 
@@ -48,8 +49,7 @@
         </li>
       </a> -->
       <a href="/counts" style="text-decoration: none;">
-        <li tabindex="0" class="icon-customers animated rotateInDownLeft"><span class="newcol">Counts
-            History</span>
+        <li tabindex="0" class="icon-customers animated rotateInDownLeft"><span class="newcol">Counts History</span>
         </li>
       </a>
       <li tabindex="0" class="icon-settings animated rotateInDownLeft"><span class="newcol">
