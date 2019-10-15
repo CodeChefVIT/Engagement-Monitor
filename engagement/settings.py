@@ -83,7 +83,7 @@ DATABASES = {
 }
 
 DEBUG = True
-if os.getenv("DATABASE_URL") is not None:
+if os.environ.get("DATABASE_URL") is not None:
     DATABASES['default'] = dj_database_url.config()
     DEBUG = False
 

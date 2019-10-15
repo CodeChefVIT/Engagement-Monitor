@@ -1,4 +1,4 @@
-#!/Users/akshatvg/Desktop/Chapters/CodeChef/engagement-monitor/Backend/engagement/venv/bin/python
+#!/Users/akshatvg/Desktop/Chapters/CodeChef/engagement-monitor/venv/bin/python
 
 import sys
 import getopt

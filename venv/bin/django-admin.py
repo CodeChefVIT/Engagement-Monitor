@@ -1,4 +1,4 @@
-#!/Users/akshatvg/Desktop/Chapters/CodeChef/engagement-monitor/Backend/engagement/venv/bin/python3.7
+#!/Users/akshatvg/Desktop/Chapters/CodeChef/engagement-monitor/venv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":
