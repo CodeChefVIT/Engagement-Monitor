@@ -1,4 +1,4 @@
-![Engagement Monitor Logo](https://github.com/akshatvg/engagement-monitor/blob/master/Backend/engagement/static/img/Logo.png "Engagement Monitor Logo")
+![Engagement Monitor Logo](https://github.com/akshatvg/engagement-monitor/blob/master/static/img/Logo.png "Engagement Monitor Logo")
 
 ### What is Engagement Monitor?
 Engagement Monitor is a web application which helps analyse active or disinterested members of a WhatsApp group.
@@ -25,7 +25,7 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 1) git clone https://github.com/CodeChefVIT/engagement-monitor.git
 2) cd engagement-monitor
 3) pip install -r requirements.txt
-4) cd Backend/engagement/venv
+4) cd engagement/venv
 5) source bin/activate
 6) cd ..
 7) python3 manage.py runserver
@@ -36,7 +36,6 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 1) git clone https://github.com/CodeChefVIT/engagement-monitor.git
 2) cd engagement-monitor
 3) pip install -r requirements.txt
-4) cd Backend
 5) engage/Scripts/activate
 6) cd engagement
 7) python3 manage.py makemigrations

@@ -1,0 +1,695 @@
+7/25/19, 23:45 - Messages to this group are now secured with end-to-end encryption. Tap for more info.
+7/25/19, 22:06 - Angad Sharma created group "CodeChef-VIT Technical"
+7/25/19, 23:45 - You joined using this group's invite link
+7/25/19, 23:45 - +91 91402 51364 joined using this group's invite link
+7/25/19, 23:45 - Akshat Gupta joined using this group's invite link
+7/25/19, 23:45 - VIT Codechef Jatin Rathee joined using this group's invite link
+7/25/19, 23:45 - +91 79065 92414 joined using this group's invite link
+7/25/19, 23:45 - VIT Codechef Shreya joined using this group's invite link
+7/25/19, 23:45 - +91 80517 77723 joined using this group's invite link
+7/25/19, 23:46 - +91 84497 36175 joined using this group's invite link
+7/25/19, 23:47 - +91 90037 55024 joined using this group's invite link
+7/25/19, 23:47 - +91 90038 14273 joined using this group's invite link
+7/25/19, 23:49 - Codechef Rishab joined using this group's invite link
+7/25/19, 23:49 - +91 84202 80210 joined using this group's invite link
+7/25/19, 23:51 - +91 77730 55000 joined using this group's invite link
+7/25/19, 23:52 - +91 73580 32337 joined using this group's invite link
+7/25/19, 23:54 - +91 6394 020 533 joined using this group's invite link
+7/25/19, 23:55 - +91 77719 56423 joined using this group's invite link
+7/25/19, 23:56 - +91 98183 04476 joined using this group's invite link
+7/25/19, 23:56 - +91 70424 49591 joined using this group's invite link
+7/25/19, 23:58 - Nishi Jain The Best joined using this group's invite link
+7/26/19, 00:00 - Gauransh joined using this group's invite link
+7/26/19, 00:01 - +91 84205 35537 joined using this group's invite link
+7/26/19, 00:01 - +91 89231 68500 joined using this group's invite link
+7/26/19, 00:04 - +91 73791 05000 joined using this group's invite link
+7/26/19, 00:04 - +91 98189 11553 joined using this group's invite link
+7/26/19, 00:05 - +91 91660 96808 joined using this group's invite link
+7/26/19, 00:10 - +91 79923 26311 joined using this group's invite link
+7/26/19, 00:17 - VIT Codechef Navya joined using this group's invite link
+7/26/19, 00:26 - +91 81285 10634 joined using this group's invite link
+7/26/19, 00:26 - +91 77229 47935 joined using this group's invite link
+7/26/19, 00:45 - Codechef Akash Rastogi joined using this group's invite link
+7/26/19, 02:06 - +91 90806 30859 joined using this group's invite link
+7/26/19, 03:38 - +91 99076 51919 joined using this group's invite link
+7/26/19, 05:56 - +91 97802 12310 joined using this group's invite link
+7/26/19, 06:11 - +91 95660 55272 joined using this group's invite link
+7/26/19, 07:26 - +91 6303 152 740 joined using this group's invite link
+7/26/19, 07:28 - +91 89684 24418 joined using this group's invite link
+7/26/19, 13:35 - +91 70826 24978 joined using this group's invite link
+7/26/19, 13:38 - +91 6379 119 361 joined using this group's invite link
+7/26/19, 13:51 - +91 97179 66915 joined using this group's invite link
+7/28/19, 22:06 - Angad Sharma removed +91 98189 11553
+7/28/19, 22:10 - Angad Sharma: 🛑🛑🛑🛑🛑🛑🛑🛑🛑
+
+Greetings everyone. Welcome to the tech group. I want everyone to introduce yourselves with your domain, as well as the things that you're working on. 
+The people who don't have any projects right now will be assigned one by tomorrow. So just introduce yourselves with your domain.
+7/28/19, 22:12 - +91 77229 47935: i m Vikas frm techincal domain. Working on ar app
+7/28/19, 22:13 - Gauransh: I'm Gauransh from Management working on the backend of Ghanta app
+7/28/19, 22:14 - Sandeep: I'm Sandeep. I'm from the technical domain. Currently, I'm not working on any codechef project.
+7/28/19, 22:14 - Akshat Gupta: Hi I'm Akshat,
+I'm into frontend web development.
+I'm working on a project called Common Entry Test, a common club and chapter recruitment portal for freshers (along with Navyaa) & trying to make an email template for the newsletter.
+7/28/19, 22:15 - +91 79065 92414: Muskan Rastogi
+Management
+Working on Codechef's website!
+7/28/19, 22:16 - +91 90037 55024: Hello guys 
+I am Dipto Chakrabarty  
+I am currently working in the field of devops  . 
+My project is focused on quick and easy  deployment of products using docker  containers .
+7/28/19, 22:17 - Nishi Jain The Best: Hey I'm Nishi. I'm from management. Working on frontend of CodeChef's CCS website
+7/28/19, 22:18 - VIT Codechef Navya: I am Navyaa from technical domain.
+I am into backend web dev
+Currently with nodejs and learning flask also.
+I'm working on a project called Common Entry Test, a common club and chapter recruitment portal for freshers (along with Akshat)
+7/28/19, 22:18 - +91 6394 020 533: I am Ishitva Verma technical App development. Extraction of research paper from IEEE using sichub
+7/28/19, 22:20 - +91 98183 04476: Ishan Gupta
+Technical
+You said you will give me a project on Graphic User Interface.
+7/28/19, 22:21 - VIT Codechef Jatin Rathee: I am Jatin Rathee. Currently learning Design and Frontend Web Development.
+7/28/19, 22:21 - +91 99076 51919: This message was deleted
+7/28/19, 22:22 - +91 91402 51364: Harshita Bhalla..
+Technical.
+Working on free slot finder
+7/28/19, 22:23 - +91 84497 36175: Kshitiz Verma 
+Technical 
+Working on density based parking spot allotment project
+7/28/19, 22:24 - +91 70424 49591: I am Anuj Kapoor
+Management
+Interested in App Dev 
+Currently not working in a project
+7/28/19, 22:25 - +91 77730 55000: Hello,
+I am Sahaaj Singh Chawla
+I am working in the domain of Machine learning
+I am working on the project Smart Park(with Kshitiz and Bhavesh)
+7/28/19, 22:26 - +91 80517 77723: I'm Rimjhim Singh from design
+I'm working on Upcoming events app
+7/28/19, 22:27 - +91 90038 14273: I am subhra paladhi from 
+Technical domain
+Currently I am working on an Web app to download IEEE research papers from Sci hub
+7/28/19, 22:27 - +91 84202 80210: Hi, I’m Prerna sultania from design
+Currently I don’t have a project assigned
+7/28/19, 22:28 - +91 81285 10634: I am Dhruv Shah
+I am from management 
+I am currently working on making a media server using node mcu
+7/28/19, 22:29 - +91 89231 68500: Hello,
+I am Shashank k drolia
+Management
+Current working on the project :Spell checker in python using trie datastructure..
+7/28/19, 22:30 - +91 73791 05000: Howdy folks, I am Anshumaan from management. 
+I am working on Frontend and the project is the Codechef Website
+7/28/19, 22:31 - +91 6303 152 740: Hi guys ,I am Harsha Vallabhaneni from Design team 
+Working on machine learning
+7/28/19, 22:34 - +91 95660 55272: Hello,
+I am Bhavesh Goyal 
+I am working in the domain of backend development 
+I am working on the project Smart Park(with Kshitiz and Sahaaj)
+7/28/19, 22:35 - +91 70826 24978: I am Hritisha
+Management
+Working on codechef's website along with Muskan Rastogi 
+And will work on a website(kinda portfolio) in which will combine design and frontend
+7/28/19, 22:37 - +91 91660 96808: Hello,
+I am Alankrit Bhardwaj
+I am working on app development .
+My project is on vit tourist guide(Keshav).
+7/28/19, 22:42 - +91 6379 119 361: Hello, I'm Madhurya from technical domain working in app dev. Currently not working on any project.
+7/28/19, 22:43 - +91 99076 51919: Hi, I am Keshav Periwal
+Management
+I am working on vit tourist guide(Alankrit)
+7/28/19, 22:44 - +91 73580 32337: Hey, I'm Pranav from Management. 
+Currently not working on any project.
+7/28/19, 22:45 - +91 89684 24418: Hi, I am Damayanti from Editorial.  Currently not working on any project.
+7/28/19, 22:46 - +91 99268 17645: Hey everyone. I'm Rajat Sablok. I'm into backend web development and currently working on 'free slot finder' along with Harshita
+7/28/19, 22:48 - Codechef Rishab: Hi guys, I'm Rishabh from Technical, i do backend and server development. Currently I'm working on the attendance monitoring system for Codechef's 2cc course.
+7/28/19, 22:54 - +91 79923 26311: Hey Everyone... I'm Anurag... I'm not working on any project yet... My domain of interest - ML
+(previously worked on a micro project)
+7/28/19, 23:11 - +91 84205 35537: Hey! I'm Umang from the technical team and I'm into ML.
+I'm not working on any project right now.
+7/28/19, 23:14 - +91 77719 56423: Hi everyone, I'm Priyank from Technical. I am currently into frontend web development and my project is an Email Timer.
+7/28/19, 23:51 - VIT Codechef Shreya: Hey guys!
+I'm Shreya from Management
+I'm currently creating a todos monitoring system using NodeJS
+7/29/19, 01:23 - Angad Sharma: This message was deleted
+7/29/19, 01:24 - Angad Sharma: 🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀
+
+With great tech comes great responsibilities. 
+This group comes with some guidelines to follow:
+
+1. All applications that are nearing completion *need to be deployed* for testing and the link should be sent on this group for beta testing.
+
+2. Static frontend can be deployed for free at *netlify* whereas dynamic web applications and APIs can be deployed to *heroku*. For containerized deployments, contact me. Mobile applications can be shared through drive links. 
+
+3. Feel free to post any doubts you are having while working on your project. Note that it is preferred that you *create an issue on GitHub* and post the link here. Other people can help if they know how to.
+
+4. @919003755024 will be taking care of making your application live and for everyone to use after thorough testing and changes have been done. If there are some problems during deployment then contact me.
+
+5. All project updates will be asked on this group. You can feel free to reply here only. If you are not comfortable in doing so then you can also PM whoever has asked for the update.
+
+6. Tech discussions happen during the standard meetings but if you guys want separate tech discussions/meetings to be hosted then PM @917903945705 
+
+7. People who have shown less progress on their projects or fail to inform us of the updates will be removed from this group. 
+
+The people who didn't have any projects have been assigned in the link below:
+https://gist.github.com/L04DB4L4NC3R/4af3a6603c66200c66f42f3aa82cb2d7
+
+For any doubts related to the project contact any of @917903945705 , @919451337054 or me.
+7/29/19, 01:25 - +91 99268 17645: 👍🏻
+7/29/19, 01:27 - +91 90038 14273: 👍
+7/29/19, 01:27 - +91 87095 84733 joined using this group's invite link
+7/29/19, 01:28 - +91 80517 77723: 👍🏼
+7/29/19, 01:28 - +91 79923 26311: 👍🏻
+7/29/19, 01:31 - +91 77719 56423: 👍🏻
+7/29/19, 01:32 - VIT Codechef Shreya: 👍🏻
+7/29/19, 01:34 - Gauransh: 👍🏻
+7/29/19, 01:34 - +91 84205 35537: 👍🏾
+7/29/19, 02:10 - VIT Codechef Jatin Rathee: 👍
+7/29/19, 02:18 - +91 91660 96808: 👍
+7/29/19, 02:21 - +91 84202 80210: 👍🏻
+7/29/19, 03:39 - +91 95660 55272: 👍
+7/29/19, 07:36 - +91 99076 51919: 👍🏻
+7/29/19, 08:02 - +91 84497 36175: 👍🏻
+7/29/19, 08:03 - Sandeep: 👍
+7/29/19, 08:08 - +91 73791 05000: 👍🏻
+7/29/19, 08:08 - +91 90037 55024: 👍
+7/29/19, 08:09 - +91 81285 10634: 👍
+7/29/19, 08:22 - Nishi Jain The Best: 👍🏼
+7/29/19, 09:11 - +91 70826 24978: 👍🏻
+7/29/19, 09:56 - +91 77229 47935: 👍
+7/29/19, 09:57 - +91 98183 04476: 👍🏻
+7/29/19, 11:18 - VIT Codechef Navya: 👍🏻
+7/29/19, 14:53 - Codechef Rishab: 👍🏻
+7/29/19, 14:58 - +91 70424 49591: 👍
+7/29/19, 16:52 - Angad Sharma added +91 70114 13779
+7/29/19, 18:18 - Angad Sharma: 🏀🏀🏀🏀🏀🏀🏀🏀🏀🏀
+
+Hi everyone. We are happy to see good progress in the projects below:
+
+1. Common Entry Test
+2. Free Slot Finder
+3. Research Paper Query
+
+Kudos to the teams. These applications are going to be deployed for testing this week. The links are going to be sent on this group so you guys can check them out. 
+The team members are required to keep us updated with the ETAs or any issues that you are facing with the test deployments.
+7/29/19, 19:03 - VIT Codechef Navya: 👍🏻
+7/29/19, 19:04 - VIT Codechef Jatin Rathee: 👍🏻
+7/29/19, 19:20 - +91 90038 14273: 👍
+7/29/19, 19:23 - +91 79923 26311: 👍
+7/30/19, 00:47 - Angad Sharma added +91 85282 12201
+7/30/19, 16:32 - Angad Sharma: https://dev.to/effingkay/front-end-checklist-3cc2
+7/31/19, 00:27 - Akshat Gupta: Hi guys!
+
+The link to our project is:
+https://common-entry-test-cet.herokuapp.com/
+
+We recommend using your laptops for the same.
+
+Please check it out and let us know any bugs you find and we’ll rectify them. 
+
+The designs will change. Let us know if it works or pops up any kind of error at any point. 
+
+To go into the admin panel, using admin and admin as the login credentials, else signup normally to give a test. 
+
+Read the project’s README at https://github.com/CodeChefVIT/common-entry-test/blob/master/README.md which also consists of the demo video’s link. 
+
+@919315673060
+7/31/19, 01:59 - VIT Codechef Navya: Guys please check it out once
+Your reviews will be helpful
+7/31/19, 13:39 - +91 85282 12201: IMG-20190731-WA0003.jpg (file attached)
+8/1/19, 15:34 - +91 90038 14273: hi guys!
+the link to my project: https://research-paper-query.herokuapp.com/
+use your laptops for the same.
+I have built a web app to enables you to download IEEE research papers with ease for free. 
+please check it out and let me know if something does not work.
+the designs will change . please just check if it is functioning properly
+8/1/19, 15:38 - Angad Sharma: @919315673060 @919600093179 see if you can sort these out. Leave out email verification for now
+8/1/19, 15:39 - Angad Sharma: You can contact @918528212201 if you need elaboration
+8/1/19, 15:41 - VIT Codechef Navya: Working on it
+Will update👍🏻
+8/1/19, 15:42 - Angad Sharma: Great
+8/1/19, 17:58 - +91 90038 14273: https://research-paper-query-cc.herokuapp.com/
+please use this link instead of the one mentioned above
+8/1/19, 19:50 - Angad Sharma removed +91 89684 24418
+8/1/19, 19:59 - VIT Codechef Shashwat removed +91 77229 47935
+8/1/19, 20:07 - Angad Sharma: *Reminder*
+Post your progress on this group anytime tomorrow. And each Friday after that. Even if you are stuck somewhere. We can work together and get you on track.
+8/1/19, 20:20 - +91 85282 12201: 👍
+8/1/19, 20:20 - VIT Codechef Navya: 👍
+8/1/19, 20:21 - +91 90038 14273: 👍
+8/1/19, 20:21 - +91 99268 17645: 👍🏻
+8/1/19, 20:21 - VIT Codechef Shreya: 👍🏻
+8/1/19, 20:24 - Nishi Jain The Best: 👍🏼
+8/1/19, 20:24 - +91 70826 24978: 👍🏻
+8/1/19, 20:25 - VIT Codechef Jatin Rathee: 👍🏻
+8/1/19, 20:30 - +91 95660 55272: 👍
+8/1/19, 20:30 - +91 6379 119 361: 👍🏻
+8/1/19, 20:31 - +91 73791 05000: 👍🏻
+8/1/19, 20:31 - +91 84202 80210: 👍🏻
+8/1/19, 20:35 - +91 99076 51919: 👍🏻
+8/1/19, 20:39 - +91 79923 26311: 👍
+8/1/19, 20:48 - Sandeep: 👍
+8/1/19, 20:53 - +91 87095 84733: 👍
+8/1/19, 20:54 - +91 73580 32337: 👍
+8/1/19, 20:59 - +91 84497 36175: 👍🏻
+8/1/19, 21:03 - +91 90037 55024: This message was deleted
+8/1/19, 21:05 - +91 90037 55024: 👍
+8/1/19, 21:25 - Codechef Rishab: 👍🏻
+8/1/19, 21:31 - Gauransh: 👍🏻
+8/1/19, 21:37 - Angad Sharma: Guys whoever is receiving project updates from my side or any other board member's side make sure you post them on this group so everyone knows what you're working on
+8/1/19, 21:38 - VIT Codechef Shashwat: Yeah.!!
+8/1/19, 22:12 - +91 99268 17645: I will either use ejs template engine or REST API to update the free slots on the webpage.
+8/1/19, 22:48 - +91 90037 55024: https://github.com/CodeChefVIT/CET-Deployment/issues/6
+
+Can someone help with this issue
+8/2/19, 03:51 - Angad Sharma added +91 70145 31554
+8/2/19, 03:52 - Angad Sharma: Good job @919928160595 Junior for sending a PR for this issue
+8/2/19, 05:26 - Angad Sharma: Job*
+8/2/19, 05:28 - Angad Sharma: https://github.com/L04DB4L4NC3R/DEC
+8/2/19, 05:29 - Angad Sharma: https://github.com/toolmantim/release-drafter
+8/2/19, 05:43 - Angad Sharma: For those of you who want to create a personal portfolio hassle free: https://medium.com/gdg-vit/building-a-personal-portfolio-website-with-hugo-7e8604d5e877. 
+This is how you can write technical blogs. If anyone wants to write for CodeChef-VIT then ping me or @919451337054
+8/2/19, 08:19 - Codechef Rishab: 👍🏻
+8/2/19, 10:33 - +91 89231 68500: https://github.com/shashu421/trie.vim/issues/1
+For windows
+Can anyone help me with this
+8/2/19, 12:32 - +91 94513 37054: Add some more information in the discription of the issue, regarding particularly where you faced problem .
+8/2/19, 14:30 - Angad Sharma: @918528212201 can you test this out also?
+8/2/19, 14:52 - +91 85282 12201: Yeah. Sure. Will try to give some suggestions by the evening. Classes right now.
+8/2/19, 15:18 - +91 90038 14273: https://github.com/CodeChefVIT/getting-started/issues/2
+
+problems with deployment on heroku
+8/2/19, 16:33 - Angad Sharma: @919003814273 your application seems to be working fine
+8/2/19, 16:33 - Angad Sharma: @919003755024 update the status of the deployment when the image push is done
+8/2/19, 16:33 - Angad Sharma: Great. No prob
+8/2/19, 16:34 - +91 90038 14273: ok...
+if doesn't work then i will tell you..
+8/2/19, 16:51 - +91 90037 55024: Ok 👍
+8/2/19, 20:48 - VIT Codechef Navya: Hi guys
+The errors have been rectified!
+Thanks @918528212201 for your suggestions.
+And also user email ids should be unique that has also been kept in mind
+Also if a user appears for a test he/she can't appear for it once again. If they try to do so they will be redirected to the back to 'choose your domain page'
+
+All of u test it again and your suggestions will be valuable
+Check it out on
+https://common-entry-test-cet.herokuapp.com/
+8/2/19, 20:50 - Akshat Gupta: Also please use emails and not your registration numbers on the login page after signing up.
+8/2/19, 20:54 - Akshat Gupta: Contact us wala alert we’ll do in some days.
+8/2/19, 23:11 - +91 89231 68500: https://github.com/shashu421/trie.vim
+Update
+8/2/19, 23:41 - +91 85282 12201: I am currently studying about MongoDB and NodeJS. I was using Django for my previous project.
+Will catch up quickly.
+8/2/19, 23:44 - VIT Codechef Navya: Common entry test has been deployed and as per now all errors are resolved.
+Waiting for your suggestions
+I will soon update as soon as I complete the deployment of my hack insider project
+8/2/19, 23:45 - Gauransh: Registration part is ready. Now working  , to show all those people who r online
+8/2/19, 23:46 - +91 70114 13779: Studying NLP and NLTK for making chat bot
+8/2/19, 23:47 - +91 77719 56423: I was working on a Timer which has been completed, now I'm using Google Calendar API to set countdown for Google Events.
+8/2/19, 23:48 - +91 84205 35537: Studying OpenCV to make stress detector
+8/2/19, 23:50 - +91 87095 84733: Working on nodejs and puppeteer to scrape data from dynamic sites like Instagram
+8/2/19, 23:51 - VIT Codechef Shreya: I'm currently studying NodeJS to implement it on a TODOs app with live notifications using Google Calendar API
+8/2/19, 23:51 - +91 70424 49591: Started working on the Frontend for crud app.
+Studying Mlab and MongoDB Stitch for linking database to app.
+8/2/19, 23:53 - +91 77730 55000: I am currently trying to deploy my neural network model using flask web service so that a server call can be made from the Django backend
+8/2/19, 23:54 - +91 98183 04476: Completed The GUI designing for Coupon Management System. Made Login and Signup page. Working on barcode scanner.
+8/2/19, 23:56 - +91 73580 32337: Learning to implement bootstrap and media queries in CSS to make portfolio website more responsive.
+8/2/19, 23:56 - +91 70145 31554: Started working on frontend of research query using react
+8/2/19, 23:57 - +91 90038 14273: currently learning mongodb and react js...
+8/2/19, 23:57 - VIT Codechef Jatin Rathee: I am trying to learn sockets for frontend.
+8/2/19, 23:58 - +91 99268 17645: Currently learning about REST API to use it to update free slots on the webpage
+8/2/19, 23:58 - VIT Codechef Navya: https://github.com/NavyaaSharma/git-and-me-hack-insider/issues
+8/2/19, 23:58 - VIT Codechef Navya: please help to solve the issue .....i am facing in the deployment
+8/3/19, 00:00 - Sandeep: Working on IoT part for @919928160595 project..
+8/3/19, 00:04 - +91 90037 55024: Common entry test has been deployed in container , learning more about containers
+8/3/19, 00:07 - +91 73791 05000: I am currently working on  enhancing frontend skills and also on how to use the api. I am working on making Codechef website functional and deployable and also completing my hach insider ka project
+8/3/19, 00:16 - +91 84497 36175: Done with my front end part of the project(i.e. Smart park), waiting for the neural network model (using flask web service) to link with Django backend.
+Then we'll deploy our project.
+8/3/19, 00:24 - Akshat Gupta: Learning frontend web development and working on CET;
+Made newsletter template.
+8/3/19, 00:33 - +91 99076 51919: Started learning react for frontend
+8/3/19, 00:42 - +91 95660 55272: I'm currently trying to deploy my flask web model so that a service call can be made from Django backend
+8/3/19, 01:32 - +91 6394 020 533: Started learning web services for the project
+8/3/19, 08:31 - Gauransh: This message was deleted
+8/3/19, 17:02 - Codechef Rishab: “A Beginner’s Guide to Server-Side Web Development with Node.js” by Chen Hui Jing https://link.medium.com/XMRTrnOyJY
+8/4/19, 01:08 - VIT Codechef Navya: I have deployed my hack insider project
+https://git-and-me.herokuapp.com/
+8/4/19, 01:09 - Akshat Gupta: 👏 👏
+8/4/19, 01:18 - VIT Codechef Navya: This message was deleted
+8/4/19, 01:19 - VIT Codechef Navya: 👍🏻
+8/4/19, 01:19 - +91 84205 35537: I saw the previous reply😂
+8/4/19, 01:21 - +91 84497 36175: +1 🤣
+8/4/19, 02:04 - Angad Sharma: ✌️✌️
+8/4/19, 02:05 - Angad Sharma: @919140251364 and @919926817645 I want your application deployed by Monday. No excuses
+8/4/19, 02:05 - Angad Sharma: @917762819065 and @917771956423 let me know your progress and how you're approaching the merger
+8/4/19, 02:25 - +91 91402 51364: 👍
+8/4/19, 02:33 - +91 77719 56423: We'll let you know by Monday Night
+8/4/19, 02:43 - +91 99268 17645: 👍🏻
+8/4/19, 02:44 - +91 99268 17645: I am facing an issue while displaying the contents of a text file on the webpage. Can someone help me with it?
+
+https://github.com/RajatSablok/free-slot-finder/issues/3
+8/4/19, 14:16 - +91 94513 37054: The page is rendered first and then you are performing the reading of file and getting the output, that's why it is showing blank ..
+8/4/19, 14:17 - +91 99268 17645: Okay okay
+8/4/19, 14:26 - +91 94513 37054: This message was deleted
+8/4/19, 14:27 - +91 94513 37054: This message was deleted
+8/4/19, 18:43 - Angad Sharma: Hi guys. We are having *insight* on Wednesday. All those projects that have progressed will be mentioned during that event. Make sure that you grind out the days before insight. PM me if you guys feel that your progress is worth a mention.
+8/4/19, 18:55 - Sandeep: 👍🏼
+8/5/19, 15:48 - VIT Codechef Shashwat: Vanah - project :- to make a multiple messaging application via flutter ( will be helpful during recruitments)
+8/5/19, 17:50 - +91 99268 17645: Hey everyone! Harshita and I are working on a project called *Free Slots Finder*. We are done with the backend part of the project but are facing an issue with the OCR (Google Cloud Vision). We are unable to verify our GCV account for some reason. Can someone who had some good insight on OCR suggest what to do?
+8/5/19, 17:55 - +91 90038 14273: Did they ask for any card number for creating the billing account?
+8/5/19, 17:59 - +91 99268 17645: Yup. We filled in the correct details but still thenacco wasn't verified
+8/5/19, 17:59 - +91 90038 14273: You used debit card or credit?
+8/5/19, 17:59 - +91 99268 17645: Debit card
+8/5/19, 18:00 - +91 90038 14273: Most of these platforms only accept credit card or  things like PayPal...
+8/5/19, 18:01 - +91 97179 66915: But gcp accepts debit card
+8/5/19, 18:01 - +91 90038 14273: Still ask someone who has used GCV in past
+8/5/19, 18:01 - +91 91402 51364: You have done that..??
+Like do you use GCV..??
+8/5/19, 18:02 - Angad Sharma: I have used it. It accepts debit as well
+8/5/19, 18:02 - +91 90038 14273: I was trying to use gcp for something about 6 months ago at that time they rejected my debit card and my friends too
+8/5/19, 18:03 - Angad Sharma: It rejects *rupay* debit cards
+8/5/19, 18:03 - +91 90038 14273: I think that was the case 😅
+8/5/19, 18:05 - +91 97179 66915: Did u enable the service on gcp
+8/5/19, 18:08 - Angad Sharma: Yup 😂
+8/5/19, 18:08 - +91 99268 17645: This was the case with us too probably
+8/5/19, 18:08 - Angad Sharma: This message was deleted
+8/5/19, 18:09 - Angad Sharma: You don't have any other card?
+8/5/19, 18:10 - +91 99268 17645: We'll try with VISA card today
+8/5/19, 18:11 - Angad Sharma: Great. Let us know if that works
+8/5/19, 18:11 - Angad Sharma: Btw anyone knows a tool to visualize file sizes in a directory in a terminal GUI?
+8/5/19, 18:18 - +91 91402 51364: I tried sbi also.
+8/6/19, 21:36 - Angad Sharma: Anyone who has an HDMI to VGA converter Pm me
+8/7/19, 00:43 - Angad Sharma: This message was deleted
+8/7/19, 00:44 - +91 87095 84733: Codechef ki t-shirt pehen ke aane bola gya hai🙄
+8/7/19, 00:44 - VIT Codechef Jatin Rathee: This message was deleted
+8/7/19, 00:46 - Angad Sharma: Wong group. Board se Puch Raha tha
+8/7/19, 00:50 - Angad Sharma: Ekbar batado Kal ke liye who all are preparing their video.
+8/7/19, 00:51 - Angad Sharma: And if anyone wants to talk about their journey in technical so far then PM me
+8/7/19, 00:54 - +91 90038 14273: Ham project ka live demo nahi dikha sakte kya?
+8/7/19, 00:55 - Angad Sharma: De sakte ho but gallery might have last minute issues like the converter might not work, or the internet might not work. In any of these cases we'll have to use their mounted display. It might have a firewall on herokuapps
+8/7/19, 00:56 - Angad Sharma: It's better to stay safe and make a video for it. If everything is working there then we can give a live demo
+8/7/19, 00:57 - +91 90038 14273: OK... Backup ke lie video kar Lunga....
+Demo localhost pe dikhana sakte h kya....?
+8/7/19, 00:57 - Angad Sharma: Haan
+8/7/19, 00:57 - +91 90038 14273: OK.. 👍👍
+8/7/19, 00:58 - VIT Codechef Navya: Common entry test
+8/7/19, 00:58 - Angad Sharma: Cool
+8/7/19, 00:59 - Angad Sharma: Even if someone's project is  incomplete, they can give a promo on what they're working on
+8/7/19, 00:59 - +91 90038 14273: Mine is research paper query (webapp)
+8/7/19, 00:59 - Angad Sharma: Yup
+8/7/19, 14:52 - Angad Sharma: If anyone has been to any national or international hackathons PM me. 
+If anyone has won anything PM me too
+8/7/19, 15:00 - Angad Sharma: Do this ASAP
+8/8/19, 01:25 - VIT Codechef Shashwat: https://www.linkedin.com/posts/nvidia-ai_gpus-activity-6564920564602015744-Kz9K
+One of the smart real life application of image processing( Really worth reading and making this app)
+8/8/19, 02:13 - Angad Sharma: @919003814273 I just talked to a security specialist. He said that the servers that scihub is hosted on might be in a country with lax piracy laws. But if we make your application public there might be a good chance of it being reported and us going to jail. 
+No worries though, we can use it as an internal project, but not to be distributed freely.
+8/8/19, 02:13 - Angad Sharma: We can show your video at a later event. But we cannot make it usable publicaly
+8/8/19, 02:16 - Angad Sharma: @917771956423 and @917762819065 post your updates on the group
+8/8/19, 07:26 - +91 90038 14273: Thanks for the info...
+8/8/19, 11:00 - +91 77719 56423: Authenticated Google Calendar API, extraction of events data is pending.
+8/8/19, 12:44 - Angad Sharma: Rest everything merged and pushed?
+8/8/19, 14:24 - +91 77719 56423: No, will push it once the API starts working
+8/8/19, 14:29 - VIT Codechef Shreya: We don't have a repo yet
+8/8/19, 14:51 - Angad Sharma: What do you wanna name your project?
+8/8/19, 15:29 - Angad Sharma: @917011413779 here is your repo: https://github.com/CodeChefVIT/taskbot
+Post an update today
+8/8/19, 15:30 - +91 70114 13779: 👍
+8/8/19, 15:40 - Angad Sharma: @918420535537 here is your repo: https://github.com/CodeChefVIT/stress-detector
+Post an update today
+8/8/19, 17:07 - +91 84205 35537: 👍🏾
+8/8/19, 17:11 - Angad Sharma: @919003814273 @919315673060 and @919600093179 have successfully completed their first project. Good job. 
+
+While research paper query was disbanded due to piracy laws in india, potential common entry test changes will still be taken care of by @919600093179 and @919315673060. 
+
+@919600093179 , @919315673060 , @919003814273 and @917014531554 brainstorm some new projects and come up with a proposal to what you guys wanna next. It's not necessarily supposed to be a group project. Do this by Saturday
+8/8/19, 17:13 - VIT Codechef Navya: 👍🏻
+8/8/19, 17:17 - Akshat Gupta: 👍🏻
+8/8/19, 17:34 - +91 90038 14273: 👍
+8/8/19, 17:40 - Angad Sharma: @917762819065 and @917771956423  your repo: https://github.com/CodeChefVIT/eventify
+8/8/19, 17:40 - +91 70145 31554: 👍
+8/8/19, 17:53 - +91 77719 56423: 👍🏻
+8/8/19, 17:54 - VIT Codechef Shreya: 👍🏻
+8/9/19, 03:22 - Angad Sharma: https://github.com/MindorksOpenSource/android-developer-roadmap
+8/9/19, 14:36 - Angad Sharma: Those who have completed their projects or those who don't have projects look at this thread: https://github.com/CodeChefVIT/webinars/issues/7
+8/9/19, 14:44 - Angad Sharma: All inputs are welcome
+8/9/19, 20:57 - +91 99268 17645: @919140251364 and I will deploy our project Free Slots Finder by Sunday evening.
+8/9/19, 21:37 - +91 73791 05000: Howdy Guys, I am working out on Api consumption to complete my hack insider wala project.
+Further I am also working on making a deployable website for CodeChef-VIT.
+I will update you guys on the prototype of the projects by the end of this weekend.
+Thank you fellas.
+8/9/19, 21:38 - +91 99268 17645: Sounds good ✌🏻
+8/9/19, 21:40 - VIT Codechef Shashwat: Nice. Appreciated
+8/9/19, 23:17 - +91 73791 05000: Thanks bhaiya, thanks Rajat :)
+8/10/19, 00:06 - +91 85282 12201: The password that's needed for choosing the theme for VIT Hack didn't come at all. Also, the deadline for choosing the theme is today, they said.
+8/10/19, 00:06 - +91 85282 12201: Is this happening with anyone else too?
+8/10/19, 00:07 - +91 85282 12201: *was yesterday
+8/10/19, 00:09 - +91 90038 14273: +1
+8/10/19, 00:10 - VIT Codechef Navya: Same
+8/10/19, 00:12 - VIT Codechef Navya: @919971673330 
+Do u have any idea about why is this happening and how to select the theme now as no password has been sent to mail
+8/10/19, 00:23 - Angad Sharma: Yup I know
+8/10/19, 00:23 - Angad Sharma: Guys tumhara Mai 10 din baad bhi Kara sakta Hun, no issues. Vaise whatever issues the support team is facing will be resolved tonight
+8/10/19, 00:44 - Angad Sharma: Login through the latest mail now
+8/10/19, 00:44 - VIT Codechef Navya: Latest email mtlb
+The one with we Registered right?
+8/10/19, 00:49 - Angad Sharma: I mean check your mailbox now. The team leads have received a new mail
+8/10/19, 00:50 - Angad Sharma: Let me know when you've selected your themes
+8/10/19, 00:54 - +91 90038 14273: @919315673060 did you receive any mail??
+8/10/19, 00:54 - VIT Codechef Navya: No
+8/10/19, 00:55 - +91 90038 14273: same
+8/10/19, 00:56 - Angad Sharma: Send me your mail IDs
+8/10/19, 00:56 - +91 90038 14273: subhrapaladhi9@gmail.com
+8/10/19, 00:56 - +91 73580 32337: pranavva34@gmail.com
+8/10/19, 00:57 - +91 73580 32337: Same problem
+8/10/19, 00:58 - +91 73791 05000: Guys I just tried it
+8/10/19, 00:58 - +91 73791 05000: First it was displaying an error
+8/10/19, 00:59 - +91 73791 05000: And within a few minutes i received new login credentials
+8/10/19, 00:59 - +91 73791 05000: Via mail
+8/10/19, 00:59 - +91 73791 05000: Try it , may work for u the same way
+8/10/19, 01:00 - Angad Sharma: The idiots haven't added you and navya in the excel. Im sending you the credentials but dont tell anyone 😁
+8/10/19, 01:00 - +91 90038 14273: cool😂😂
+8/10/19, 01:01 - Angad Sharma: Done
+8/10/19, 01:01 - Angad Sharma: enjoy ✌
+8/10/19, 01:01 - +91 90038 14273: i got the mail... 
+thanks
+8/10/19, 01:06 - +91 73580 32337: Got the mail 👍
+8/10/19, 01:07 - Angad Sharma: working now?
+8/10/19, 01:07 - Angad Sharma: If any problems then lemme know
+8/10/19, 01:07 - VIT Codechef Navya: Yup
+Thanks bhaiya
+8/10/19, 01:30 - Codechef Akash Rastogi: Is there anyone who has a space for a member in their team for VIT hack?
+8/10/19, 01:31 - Angad Sharma: Check hackerearth. There are loads
+8/10/19, 01:50 - +91 81285 10634: +1
+8/10/19, 03:47 - Angad Sharma: Form a team amongst yourselves
+8/10/19, 05:43 - Angad Sharma: 🏀🏀🏀🏀🏀🏀🏀🏀🏀
+
+**Reminder**
+For those who have to give their project proposals today, as well as all of you for giving your project updates today.
+Make sure to include what you have done in your project rather than what you have learnt
+8/10/19, 12:58 - Angad Sharma: IMG-20190810-WA0014.jpg (file attached)
+This is how our second draft of the webinar flow looks like. If anyone has any suggestions or additions you are feel free to post on the group
+8/10/19, 19:08 - Angad Sharma: @919003814273 how soon can you get started on this?
+8/10/19, 19:10 - +91 90038 14273: I was it would have great if we can make the team, decide the tech stack and divide the work before CAT1...
+8/10/19, 19:28 - Angad Sharma: Who wants to do backend on this project with @919003814273 ?
+8/10/19, 19:47 - Angad Sharma: @919315673060 you up for it?
+8/10/19, 19:49 - VIT Codechef Navya: Yeah sure👍🏻
+8/10/19, 19:50 - Angad Sharma: Great. So @919003814273 and @919315673060 will be working together on the webinar flow. Guys if you have any doubts related to the flow then we can have a conference call tonight
+8/10/19, 19:53 - Angad Sharma: 🛑🛑🛑🛑🛑🛑🛑🛑
+
+The following people give their updates *before midnight tonight* :
+
+@918051777723 , @916381033638, @919003755024 , @919780212310 , @917773055000 , @917082624978, @919566055272 , @919907651919.
+8/10/19, 20:01 - Angad Sharma: Post your 2-3 line updates on the group
+8/10/19, 20:05 - +91 70826 24978: Working on codechef website along with muskan
+Design is almost done
+Will start with frontend soon
+8/10/19, 20:05 - +91 90037 55024: I have worked on the CET Deployment and a image is made , there are some updates which have to be made based on the updated application
+8/10/19, 20:11 - Nishi Jain The Best: Working on the CodeChef CCS website frontend part with @Vansh Goel
+Currently working on the entry test and email part
+8/10/19, 21:48 - +91 80517 77723: I'm working on upcoming events app,the email part is left, no progress in the past week
+8/10/19, 21:56 - Angad Sharma added +91 98730 52528
+8/10/19, 22:00 - +91 98730 52528: I got a project to make an sms app on flutter
+
+I have made the interface and i wrote the code to send sms to a phone number, console shows that sms is sent but it is not being actually delivered.
+8/10/19, 22:02 - Angad Sharma: Send the design on the group
+8/10/19, 22:02 - Angad Sharma: There is 0 progress since we spoke last. I didn't receive a single PR
+8/10/19, 22:02 - Angad Sharma: 0 progress so far.
+8/10/19, 22:02 - Angad Sharma: Your deadline is Monday
+8/10/19, 22:03 - Angad Sharma: Send a PR by Monday with your progress till now
+8/10/19, 22:04 - +91 77730 55000: This message was deleted
+8/10/19, 22:09 - Angad Sharma: All of you guys send a PR by Monday. Based on the progress of your project, we will see what to do next.
+8/10/19, 22:09 - +91 95660 55272: Working with @917773055000  to link machine learning model to backend and waiting for @918449736175  for html files. We tried to do server to server call but couldn't but faced a problem.
+8/10/19, 22:13 - +91 84497 36175: All the files have been sent except for 1-2 files 
+I'll send you the files by tomorrow
+8/10/19, 22:14 - +91 95660 55272: Okay
+8/10/19, 22:16 - +91 70826 24978: ccwhite.png (file attached)
+ccwhite.png
+8/10/19, 22:16 - +91 70826 24978: <Media omitted>
+8/10/19, 22:16 - +91 70826 24978: This message was deleted
+8/10/19, 22:16 - +91 70826 24978: <Media omitted>
+8/10/19, 22:16 - +91 70826 24978: <Media omitted>
+8/10/19, 22:18 - +91 70826 24978: This message was deleted
+8/10/19, 22:19 - +91 70826 24978: <Media omitted>
+8/10/19, 22:40 - +91 77730 55000: This message was deleted
+8/10/19, 22:40 - +91 77730 55000: Working with @919566055272   to link machine learning model to backend. We tried to do server to server call but couldn't but faced a problem.
+8/10/19, 22:44 - Angad Sharma removed Nishi Jain The Best
+8/10/19, 22:45 - Angad Sharma: 👍
+8/10/19, 22:46 - Angad Sharma: PM @917903945705
+8/10/19, 22:52 - +91 91660 96808: Will be working on the ui of the app and will apply cardview where ever possible.
+8/10/19, 22:56 - +91 90037 55024: Ok I ll send
+8/10/19, 23:04 - +91 90038 14273: This message was deleted
+8/10/19, 23:06 - +91 90038 14273: @919971673330
+@919315673060
+I can understand the flow but I need guidance regarding how to implement the various steps..
+Trello was mentioned in the flow diagram.... I am not familiar with this platform.... I am trying to learn how and for what it is used...
+8/10/19, 23:23 - Angad Sharma: No need for Trello. It won't have all of the integrations we need for free
+8/10/19, 23:24 - +91 90038 14273: ok..
+8/10/19, 23:25 - Angad Sharma: So we're thinking of having an admin dashboard rather than Trello. The credentials will only be with one person, so we don't need very good looking UI. The webinar details can be updated on that dashboard
+8/10/19, 23:28 - +91 90038 14273: we will manage from this dashboard when the registration forms are released..... sending mail alert when the live stream starts... and pushing the link to github.... 
+right?
+8/10/19, 23:35 - Angad Sharma: The first part is wrong. We will add an upcoming webinar on the dashboard. Whenever we update the dates on the webinar, it will create a registration form for that particular webinar and mail it to everyone. The last 2 parts are correct
+8/10/19, 23:39 - +91 90038 14273: ok... can you explain once the backup scheduler part
+8/11/19, 00:28 - Angad Sharma: Yeah sure. So the backup scheduler is a service which will run every 5 days or so. It's just going to export the DB into an Excel for backup
+8/11/19, 00:29 - Angad Sharma: Tackle it lasy
+8/11/19, 00:29 - Angad Sharma: Last
+8/11/19, 00:29 - Angad Sharma: @917014531554 is going to work with you for any and all frontend needs
+8/11/19, 00:31 - +91 90038 14273: okay..
+8/11/19, 00:31 - Angad Sharma: @919600093179 , @919315673060 think of a proposal by tomorrow. If you are having trouble with it then we'll assign it to you on Monday
+8/11/19, 00:32 - Angad Sharma: Navya won't be working on this project.
+8/11/19, 00:35 - +91 90038 14273: okay
+8/11/19, 00:35 - +91 90038 14273: am i the only backend developer
+8/11/19, 00:35 - +91 90038 14273: for this project??
+8/11/19, 00:41 - Angad Sharma: Yes. This is a comparitively bigger project so we will give generous deadlines. You can approach everything box by box.
+8/11/19, 00:42 - +91 90038 14273: ok...
+8/11/19, 01:21 - VIT Codechef Navya: @919003814273 
+I will be working with you on this project now
+8/11/19, 01:21 - +91 90038 14273: Ok
+8/11/19, 16:41 - Angad Sharma: Great. @919315673060 you can start with the mailer. Use the sendgrid API and use your GitHub student pack for it. It allows 5000 emails or so at one time. 
+@919003814273 you can work with @917014531554 and get started on the webinar details portal, and registration forms generation.
+8/11/19, 16:44 - Angad Sharma: Make sure everything is authenticated. No need to add or create credentials. We will keep just one set of hardcoded credentials
+8/11/19, 17:25 - +91 90038 14273: 👍
+8/11/19, 19:03 - VIT Codechef Navya: 👍🏻
+8/11/19, 19:03 - +91 70145 31554: 👍
+8/11/19, 22:04 - Angad Sharma: Registeration link - http://bit.ly/2ThN1e8
+8/12/19, 03:48 - Angad Sharma: This message was deleted
+8/12/19, 03:56 - Angad Sharma: 🏀🏀🏀🏀🏀🏀🏀🏀
+
+Guys we are going to be hosting all of your project in a multi-tennant virtual machine on digital ocean. For that we are going to need credits. Everyone is requested to sign up to digital ocean using the referral link below:
+
+https://m.do.co/c/e30a3ae40a58
+
+You will get *50$ free* and in turn the chapter will get *25$ free* for any and all hosting needs.
+8/12/19, 03:57 - +91 90037 55024: This message was deleted
+8/12/19, 04:36 - +91 90037 55024: Common-Entry-Test made my @919600093179  and @919315673060  has been successfully deployed on  167.71.231.117:3002 , do check it out guys ✌
+8/12/19, 05:39 - Angad Sharma: Great 👍
+8/12/19, 11:27 - +91 99268 17645: Hey everyone! I am facing an error while compiling the ejs file of my project. Can someone help me fix it? 
+
+
+https://github.com/RajatSablok/free-slot-finder/issues/13
+8/12/19, 13:27 - +91 99268 17645: New link:
+
+
+https://github.com/RajatSablok/free-slot-finder/issues/15
+8/12/19, 13:30 - +91 77730 55000: The admin panel is opening up instantly but after singing up, I cant log in.
+8/12/19, 14:49 - +91 90037 55024: Ok Ill check
+8/12/19, 15:19 - Angad Sharma: @919928160595 can we use your attendance system this Wednesday?
+8/12/19, 15:27 - Codechef Rishab: The hardware part is still not figured out yet.
+8/12/19, 15:28 - Codechef Rishab: @919492671016 has some problems with the current plan
+8/12/19, 15:38 - Angad Sharma: @919492671016 what is it? And why am I hearing about this from Rishabh? You are supposed to contact me directly
+8/12/19, 15:39 - Angad Sharma: Anyway we agreed that the first prototype would be software only, so what's the holdup?
+8/12/19, 15:48 - Sandeep: Yeah bro, I thought of saying you today.. I'm trying to get other alternatives...
+
+Problem is we can't connect to bluetooth with mac address using HC Bluetooth Module series. Instead it is getting connected using bluetooth name & I tried getting available devices. But, AT commands are not allowing me to do this.
+
+So to connect with bluetooth using mac address we need nrf module.. 
+We can't configure nrf module using arduino.
+We can only do using Nrf Mdk ( Firmware Programming ).
+
+This method is  using low power ble, which we will be efficient enough and no developer can even understand our technology. 
+
+But the problems are 
+-costly ( around 3000 but can be reduced to 700 if we can get a debug module )
+-takes a lott of time.
+8/12/19, 15:45 - Angad Sharma: Guys finish this project fast so you can move on to the next one. This is not a super complex project
+8/12/19, 16:10 - Angad Sharma: Okay then drop the hardware part. You and @919600093179 have no projects rn. Work together and brainstorm. Give me some proposals by tomorrow. It's not worth it for the simplicity of what we are trying to achieve.
+8/12/19, 17:41 - Sandeep: Ok bro..
+8/12/19, 17:50 - Akshat Gupta: 👍🏻
+8/12/19, 21:15 - +91 70145 31554: https://zeit.co/now
+8/12/19, 21:15 - +91 70145 31554: I discovered this deployment platform, we can use it to deploy our projects
+8/12/19, 21:15 - +91 70145 31554: Requires less configuration
+8/12/19, 21:18 - VIT Codechef Shashwat: It is really good but you will need authorization as well as  authentication to make your application secured.
+8/12/19, 21:19 - Sandeep: You deleted this message
+8/12/19, 21:34 - +91 97179 66915: I don't think it will have integrations with everything
+8/12/19, 21:34 - +91 97179 66915: It will be more like heroku
+8/12/19, 21:35 - Angad Sharma: We need a multi Tennant compute, not a managed service. Gives us more flexibility on what we want to run. We can have servers and jobs in the same Tennant. That's why we're using DO
+8/13/19, 09:45 - Angad Sharma: 🛑🛑🛑🛑🛑🛑🛑🛑🛑
+
+Hi guys. Almost everyone is working hard on their projects, but now CATs have arrived. Take a break and make sure you study so you all can become nine pointers and make teachers forget about your existence. All the best for CATs.
+8/13/19, 10:43 - Gauransh: Thank you bhaiya😅
+8/13/19, 11:33 - +91 85282 12201: Thanks a lot.
+8/13/19, 11:59 - Sandeep: Thanks bro...
+8/13/19, 12:00 - +91 77719 56423: Thanks bhaiya, same to you😃
+8/13/19, 12:06 - +91 70145 31554: Thanks 👍
+8/13/19, 12:09 - +91 73791 05000: Thank you bhaiya 😊
+8/13/19, 12:24 - Akshat Gupta: As per our discussion yesterday,
+@919492671016 and I will be working on Engagement Monitor which helps find out how active a person is on a WhatsApp group and if he’s a seenzoner, notification-zoner or a regular contributor of any sort.
+8/13/19, 12:37 - +91 73580 32337: Thanks bro 👍
+8/13/19, 12:38 - +91 90038 14273: Thanks
+8/13/19, 12:42 - +91 99268 17645: Thanks!
+8/13/19, 12:58 - Angad Sharma: No issues guys. Break banta hai
+8/13/19, 12:59 - Angad Sharma: Great. I'll post the repo link on this group ASAP
+8/13/19, 13:44 - +91 90037 55024: Thanks bhaiya and same to you
+8/13/19, 13:48 - Angad Sharma: @919492671016 and @919600093179  here os your repo: https://github.com/CodeChefVIT/engagement-monitor
+8/13/19, 14:26 - +91 97179 66915 added +91 88706 88867
+8/13/19, 20:31 - Angad Sharma added +91 87772 78059
+8/16/19, 10:12 - Codechef Rishab: “AI Ops — Managing the End-to-End Lifecycle of AI” by John Thomas https://link.medium.com/3qtQNDxTbZ
+8/17/19, 03:09 - Angad Sharma: https://www.hackathon.com/event/challenge-aci-5d4af02fca32a4001b1542b7
+8/17/19, 03:09 - Angad Sharma: Anyone up for this let us know on the group
+8/17/19, 03:11 - Akshat Gupta: Have any ideas in mind?
+8/17/19, 03:12 - Angad Sharma: Even if we don't, we can still register.
+8/17/19, 03:12 - Angad Sharma: And go there
+8/17/19, 03:14 - +91 81285 10634: Am interested
+8/17/19, 03:15 - +91 81285 10634: Can we go for IOT area
+8/17/19, 03:15 - Angad Sharma: Yup. Form some teams. We can all represent the chapter in Hyderabad
+8/17/19, 03:16 - Codechef Akash Rastogi: +1
+8/17/19, 03:16 - VIT Codechef Shashwat: Are we going to.??🥺
+8/17/19, 03:16 - VIT Codechef Shashwat: *too
+8/17/19, 03:16 - Angad Sharma: I'll apply for the leave tomorrow itself
+8/17/19, 03:17 - Angad Sharma: Siddharth bhaiya will also be there :)
+8/17/19, 03:17 - VIT Codechef Shashwat: 😍😍😍😍
+8/17/19, 03:24 - Angad Sharma: http://chai.griet.in/registration.php
+8/17/19, 03:24 - Angad Sharma: This is the reg link ^
+8/17/19, 03:29 - Angad Sharma: https://hexathon.intergraph.com
+8/17/19, 03:29 - Angad Sharma: This is one more in Hyderabad ^
+8/17/19, 03:33 - Angad Sharma: This seems better though. Correct me if I'm wrong
+8/17/19, 03:46 - Angad Sharma: Reply with 🎉, whoever is ready
+8/17/19, 11:59 - +91 70424 49591: 🎉🎉 I'm up for it.
+8/17/19, 12:04 - Sandeep: I'm up for it 🎉
+8/17/19, 12:05 - Akshat Gupta: 🎉
+8/17/19, 12:05 - VIT Codechef Navya: 🎉I am up for it
+8/17/19, 12:06 - Gauransh: 🎉🎉🎉
+8/17/19, 12:11 - +91 6303 152 740: 🎉
+8/17/19, 12:13 - +91 90037 55024: 🎉
+8/17/19, 12:13 - +91 87095 84733: 🎉
+8/17/19, 12:18 - Codechef Akash Rastogi: 🎉
+8/17/19, 12:20 - +91 81285 10634: 🎉
+8/17/19, 12:50 - +91 95660 55272: 🎉
+8/17/19, 12:50 - +91 99268 17645: 🎉
+8/17/19, 13:11 - +91 90037 55024: https://github.com/collabnix/dockerbangalore
+8/17/19, 13:13 - +91 91660 96808: 🎉🎉
+8/17/19, 13:26 - +91 84497 36175: 🎉
+8/17/19, 13:32 - Angad Sharma: Awesome. Form teams amongst yourselves. We'll go to Hyderabad ✌️✌️
+8/17/19, 13:38 - +91 73580 32337: 🎉🎉🎉
+8/17/19, 13:42 - +91 73791 05000: 🎉
+8/17/19, 14:08 - VIT Codechef Shreya: 🎉
+8/17/19, 14:15 - +91 98730 52528: 🎉
+8/17/19, 14:15 - +91 98183 04476: 🎉
+8/17/19, 14:25 - +91 77719 56423: This message was deleted
+8/17/19, 14:47 - +91 70145 31554: 🎉
+8/17/19, 14:48 - +91 79923 26311: 🎉
+8/17/19, 14:52 - Angad Sharma: Make sure you make teams with people of different domains to avoid redundancy of work
+8/17/19, 14:52 - +91 70145 31554: 👍
+8/17/19, 15:41 - Sandeep: 👍🏼
+8/18/19, 09:57 - Angad Sharma: https://dev.to/l04db4l4nc3r/the-dispatcher-4l4k
+8/18/19, 09:58 - Angad Sharma: For all you guys with OS papers coming up XD
+8/18/19, 12:29 - +91 77719 56423: Nice✌🏻
+8/18/19, 12:31 - +91 90037 55024: Thanks 🤟
