@@ -71,7 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'engagement.wsgi.application'
-SESSION_ENGINE= 'django.contrib.sessions.backends.cached_db'
+SESSION_ENGINE= 'django.contrib.sessions.backends.db'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
