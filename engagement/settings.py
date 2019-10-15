@@ -25,7 +25,7 @@ SECRET_KEY = 'fhm=m29sp)1^bk$ebv^eb^&zl*2k_u!^ve4r2*+4d=_ok*0-vi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ["engagement-monitor-cc.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["engagement-monitor-cc.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
@@ -71,7 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'engagement.wsgi.application'
-
+SESSION_ENGINE= 'django.contrib.sessions.backends.cached_db'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
