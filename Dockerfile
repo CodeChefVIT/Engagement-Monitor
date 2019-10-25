@@ -6,4 +6,5 @@ RUN pip install -r requirements.txt
 WORKDIR /engagement-monitor
 RUN python manage.py makemigrations 
 RUN python manage.py migrate
-CMD gunicorn engagement.wsgi 0.0.0.0:8000
+EXPOSE 8000
+CMD gunicorn engagement.wsgi --bind 0.0.0.0:8000
