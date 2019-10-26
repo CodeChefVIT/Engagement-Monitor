@@ -78,17 +78,15 @@ SESSION_ENGINE= 'django.contrib.sessions.backends.db'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'djongo',
+        'NAME': 'test',
+        'HOST':'mongodb+srv://number1:number1@cluster0-9t1qi.mongodb.net/test',
+        'USER':'number1',
+        'PASSWORD':'number1',
+        
     }
 }
-
-DEBUG = True
-if os.environ.get("DATABASE_URL") is not None:
-    DATABASES['default'] = dj_database_url.config()
-    DEBUG = True
-
-
+DEBUG =True
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
