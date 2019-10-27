@@ -21,7 +21,7 @@
 
     <div class="container">
         <div class="text-center">
-            <div style="margin-top: 11vh;" class="animated bounceInLeft">
+            <div style="margin-top: 11vh;" class="animated fadeInLeft">
                 <h1>Signup</h1>
                 <p>Please enter following details to continue</p>
             </div>
@@ -31,37 +31,38 @@
                 {% endfor %}
             </div>
             <div class="signup-form">
-                <form method="post" name="register" style="box-shadow: 0px 1px 5px black;" class="form animated slideInLeft">
+                <form method="post" name="register" style="box-shadow: 0px 1px 5px black;"
+                    class="form animated fadeInLeft">
                     {% csrf_token %}
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <input type="text" name="fname" placeholder="First Name" class="form-control"></div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <input type="email" name="email" placeholder="Email" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <input type="number" name="lname" placeholder="Phone Number" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <input type="password" name="password" placeholder="Password" class="form-control">
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <input type="password" name="cpassword" placeholder="Confirm Password" class="form-control">
                         </div>
                     </div>
-                    <button type="submit" class="btn animated slideInUp">Register</button>
+                    <button type="submit" class="btn animated fadeInLeft">Register</button>
                 </form>
             </div>
             <a href="/login">
-                <p class="animated rotateInDownRight">Already have an account? Login here!</p>
+                <p class="animated fadeInLeft link1">Already have an account? Login here!</p>
             </a>
         </div>
     </div>

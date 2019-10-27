@@ -10,6 +10,14 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 3) View each member's total count of messages and past counts in numbers as well as in the form of graphs and charts.
 
 
+### Demo Link:
+<http://engagement-monitor.tech>
+
+(or) 
+
+<https://engagement-monitor-cc.herokuapp.com>
+
+
 ### Advantages of Engagement Monitor?
 1) Find out the most active members in a WhatsApp group.
 2) Find out who spams the most in a WhatsApp group.
@@ -26,9 +34,10 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 2) cd engagement-monitor
 3) pip install -r requirements.txt
 4) cd engagement/venv
-5) source bin/activate
-6) cd ..
-7) python3 manage.py runserver
+5) virtualenv .env
+6) source .env/bin/activate
+7) cd ..
+8) python3 manage.py runserver
 ```
 
 #### On Windows:

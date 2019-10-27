@@ -3,11 +3,6 @@ body {
     color: black;
 }
 
-.link1 {
-    color: black;
-    text-decoration: underline;
-}
-
 .form-control {
     height: 40px;
     box-shadow: none;
@@ -134,7 +129,3 @@ a {
 a:hover {
     color: whitesmoke;
 }
-
-h1{
-    color: #7c73e6;
-  }
