@@ -34,9 +34,10 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 2) cd engagement-monitor
 3) pip install -r requirements.txt
 4) cd engagement/venv
-5) source bin/activate
-6) cd ..
-7) python3 manage.py runserver
+5) virtualenv .env
+6) source .env/bin/activate
+7) cd ..
+8) python3 manage.py runserver
 ```
 
 #### On Windows:
