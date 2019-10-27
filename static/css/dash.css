@@ -234,8 +234,9 @@ main .file-bg span {
   background-color: #273592;
   color: white;
   position: fixed;
-  padding: 20px;
+  padding: 10px;
   bottom: 0;
+  z-index: 0;
 }
 
 .modal-dialog {

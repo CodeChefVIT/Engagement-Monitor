@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Create your views here.
 def index(request):
-    return render(request,"ajax_trial.html")
+    return redirect('login')
 
 def user(request):
     return request.session.get('count')
@@ -94,8 +94,8 @@ def dashboard(request,methods=['POST', 'GET']):
             user = User.objects.get(username=request.user.username)
             print(user)
             one = str(list(iter(s))[0]) + ":"+ str(s.get(list(iter(s))[0]))
-            two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[0]))
-            three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[0]))
+            two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[1]))
+            three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[2]))
             wser1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
             wser1.save()
             file.close()
@@ -155,8 +155,8 @@ def dashboard(request,methods=['POST', 'GET']):
             user = User.objects.get(username=request.user.username)
             print(user)
             one = str(list(iter(s))[0]) + ":"+ str(s.get(list(iter(s))[0]))
-            two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[0]))
-            three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[0]))
+            two = str(list(iter(s))[1]) + ":"+ str(s.get(list(iter(s))[1]))
+            three = str(list(iter(s))[2]) + ":"+ str(s.get(list(iter(s))[2]))
             user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
             print(user1.save())
             file.close()
