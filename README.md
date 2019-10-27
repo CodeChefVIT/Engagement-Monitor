@@ -11,8 +11,8 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 
 
 ### Demo Link:
-1) <engagement-monitor.tech>
-2) <engagement-monitor-cc.herokuapp.com>
+1) (engagement-monitor.tech)
+2) (engagement-monitor-cc.herokuapp.com)
 
 ### Advantages of Engagement Monitor?
 1) Find out the most active members in a WhatsApp group.
