@@ -16,6 +16,7 @@ urlpatterns = [
     url(r'^api/chart/data/$', views.ChartData.as_view()),
     url(r'^api/pichart/data/$', views.PieChartData.as_view()),
     path('counts/', views.PostList.as_view(), name='post'),
+    path('',views.index,name='index'),
     url(r'^piechart/$', views.PieView.as_view(), name='home'), 
 ]
 

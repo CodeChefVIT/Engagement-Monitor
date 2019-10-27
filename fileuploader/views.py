@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Create your views here.
 def index(request):
-    return render(request,"ajax_trial.html")
+    return redirect('login')
 
 def user(request):
     return request.session.get('count')
