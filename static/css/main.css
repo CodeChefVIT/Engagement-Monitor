@@ -1,6 +1,6 @@
 body {
-    background-color: #273592;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .form-control {
@@ -126,4 +126,9 @@ a {
 
 a:hover {
     color: whitesmoke;
+}
+
+form {
+    background-color: #273592;
+    color: white;
 }
