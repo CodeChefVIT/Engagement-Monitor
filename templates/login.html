@@ -21,7 +21,7 @@
 
     <div class="container">
         <div class="text-center">
-            <div style="margin-top: 11vh;" class="animated bounceInLeft">
+            <div style="margin-top: 11vh;" class="animated fadeInLeft">
                 <h1>Login</h1>
                 <p>Please login to continue</p>
             </div>
@@ -31,30 +31,30 @@
                 {% endfor %}
             </div>
             <div class="signup-form">
-                <form method="POST" class="form animated slideInLeft" name="login"
+                <form method="POST" class="form animated faceInLeft" name="login"
                     style="box-shadow: 0px 1px 5px black;">
                     {% csrf_token %}
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <p align="left"><b>Email:</b></p>
                             <input type="text" name="username" class="form-control" placeholder="Enter Your Email"
                                 required>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <div class="form-group animated slideInDown">
+                        <div class="form-group animated fadeInLeft">
                             <p align="left"><b>Password:</b></p>
                             <input type="password" name="password" class="form-control"
                                 placeholder="Enter Your Password" required>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn animated slideInUp">Login</button>
+                        <button type="submit" class="btn animated fadeInLeft">Login</button>
                     </div>
                 </form>
             </div>
             <a href="/register">
-                <p class="animated rotateInDownRight">Don't have an account? Register here!</p>
+                <p class="animated fadeInLeft">Don't have an account? Register here!</p>
             </a>
         </div>
     </div>

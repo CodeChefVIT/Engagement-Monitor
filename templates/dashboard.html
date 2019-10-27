@@ -27,17 +27,17 @@
     <div class="smartphone-menu-trigger"></div>
 
     <header class="logo mt-2">
-      <a href="/dash" class="animated lightSpeedIn"><img src="{% static 'img/Logo.png' %}" /></a>
-      <h4 style="text-transform: capitalize; color: white;" class="mt-3 animated rotateInDownRight">Welcome
+      <a href="/dash" class="animated fadeInLeft"><img src="{% static 'img/Logo.png' %}" /></a>
+      <h4 style="text-transform: capitalize; color: white;" class="mt-3 animated fadeInLeft">Welcome
       </h4>
     </header>
 
     <ul>
       <a href="/dash" style="text-decoration: none;">
-        <li tabindex="0" class="icon-dashboard animated rotateInDownLeft"><span class="newcol">Dashboard</span></li>
+        <li tabindex="0" class="icon-dashboard animated fadeInLeft"><span class="newcol">Dashboard</span></li>
       </a>
       <a href="/chart" style="text-decoration: none;">
-        <li tabindex="0" class="icon-users animated rotateInDownLeft"><span class="newcol">Bar Graph
+        <li tabindex="0" class="icon-users animated fadeInLeft"><span class="newcol">Bar Graph
             Representation</span>
         </li>
       </a>
@@ -47,10 +47,10 @@
         </li>
       </a> -->
       <a href="/counts" style="text-decoration: none;">
-        <li tabindex="0" class="icon-customers animated rotateInDownLeft"><span class="newcol">Counts History</span>
+        <li tabindex="0" class="icon-customers animated fadeInLeft"><span class="newcol">Counts History</span>
         </li>
       </a>
-      <li tabindex="0" class="icon-settings animated rotateInDownLeft"><span class="newcol">
+      <li tabindex="0" class="icon-settings animated fadeInLeft"><span class="newcol">
           <form method="POST" action="/logout/">
             {% csrf_token %}
             <button type="submit" name="Logout"
@@ -80,9 +80,9 @@
   <main>
     <div class="col-md-12">
       <div class="container">
-        <h1 class="text-center animated bounceIn" style="margin-top: 10vh;">Engagement Monitor</h1>
+        <h1 class="text-center animated fadeInLeft" style="margin-top: 10vh;">Engagement Monitor</h1>
 
-        <p style="color: black;margin-top:20px;" class="text-center animated bounceIn">Monitor and analyse active or
+        <p style="color: black;margin-top:20px;" class="text-center animated fadeInLeft">Monitor and analyse active or
           disinterested members of a WhatsApp group.</p>
       </div>
     </div>
@@ -90,7 +90,7 @@
     <div class="col-md-12">
       <div class="container">
         <div class="text-center">
-          <form method="post" enctype="multipart/form-data" class="animated slideInLeft"
+          <form method="post" enctype="multipart/form-data" class="animated fadeInLeft"
             style="padding: 20px;background-color:rgba(0, 0, 0, 0.2);border-radius: 30px;">
             {% csrf_token %}
             <div class="os-type">
@@ -117,7 +117,7 @@
   <div class="footer">
     <div class="col-md-12">
       <div class="container">
-        <div class="animated slideInRight">Your data is safe with us. We do not store, record or backup any
+        <div class="animated fadeInLeft">Your data is safe with us. We do not store, record or backup any
           chat. All information provided in this website is general information only.
         </div>
       </div>
