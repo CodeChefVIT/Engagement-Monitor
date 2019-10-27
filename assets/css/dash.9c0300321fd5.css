@@ -11,10 +11,6 @@ main {
   height: 100vh;
 }
 
-h1{
-  color: #7c73e6;
-}
-
 main .file-bg {
   background: rgba(0, 0, 0, 0.2);
   color: black;

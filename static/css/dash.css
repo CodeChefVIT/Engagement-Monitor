@@ -11,6 +11,10 @@ main {
   height: 100vh;
 }
 
+h1{
+  color: #7c73e6;
+}
+
 main .file-bg {
   background: rgba(0, 0, 0, 0.2);
   color: black;
@@ -29,7 +33,7 @@ main .file-bg span {
 }
 
 .menu {
-  background: #c4c1e0cc;
+  background: #c4c1e0;
   height: 100vh;
   width: 240px;
   position: fixed;
@@ -49,7 +53,7 @@ main .file-bg span {
   width: 100px;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid #c4c1e0cc;
+  border: 4px solid #c4c1e0;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
 }
 
