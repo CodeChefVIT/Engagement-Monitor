@@ -16,6 +16,8 @@ import collections
 import operator
 from .models import Post
 from django.views import generic
+import zipfile
+import shutil
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -45,8 +47,9 @@ def dashboard(request,methods=['POST', 'GET']):
         print(filename)
         file1 = os.path.join(settings.MEDIA_ROOT, myfile.name)
         print(file1)
-        file = open(file1,encoding="utf8")
+        
         if osa == "Android":
+            file = open(file1,encoding="utf8")
             c=0
             mem = []
             dicti={}
@@ -107,11 +110,19 @@ def dashboard(request,methods=['POST', 'GET']):
             #request.session['data'] = final_data
             return render(request,"dashboard.html",final_data)
         elif osa == "iOS":
-            print("hello")
+            file_extract = os.mkdir(file1)
+            with zipfile.ZipFile(myfile.name, 'r') as zip_ref:
+                zip_ref.extractall(file_extract)
+            
+            file = open(file_extract,encoding="utf8")
+
+            
+            print("Done Boyzz")
             c=0
             mem = []
             dicti={}
             #print("I reached my waypoint")
+            
             while True:
                 line = file.readline()
                 x = re.search(r"(.*?\d.*?\,.*?].*?\:)", line)
@@ -160,7 +171,8 @@ def dashboard(request,methods=['POST', 'GET']):
             user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
             print(user1.save())
             file.close()
-            os.remove(file1)
+            shutil.rmtree(myfile.name.split('.zip')[0])
+            os.remove(myfile.name)
             final_data = {
                     "phon" : f_dicti.keys(),
                     "msgs" : f_dicti.values()
