@@ -110,11 +110,11 @@ def dashboard(request,methods=['POST', 'GET']):
             #request.session['data'] = final_data
             return render(request,"dashboard.html",final_data)
         elif osa == "iOS":
-            file_extract = os.mkdir(file1)
-            with zipfile.ZipFile(myfile.name, 'r') as zip_ref:
-                zip_ref.extractall(file_extract)
+            file_extract = os.mkdir(file1+'extract')
+            with zipfile.ZipFile(file1, 'r') as zip_ref:
+                zip_ref.extractall(file1+'extract')
             
-            file = open(file_extract,encoding="utf8")
+            file = open(file1+'extract/_chat.txt',encoding="utf8")
 
             
             print("Done Boyzz")
@@ -171,8 +171,8 @@ def dashboard(request,methods=['POST', 'GET']):
             user1 = Post(user_name = user, file_name=filename,one=one, two=two,three=three)
             print(user1.save())
             file.close()
-            shutil.rmtree(myfile.name.split('.zip')[0])
-            os.remove(myfile.name)
+            shutil.rmtree(file1+'extract')
+            os.remove(file1)
             final_data = {
                     "phon" : f_dicti.keys(),
                     "msgs" : f_dicti.values()
