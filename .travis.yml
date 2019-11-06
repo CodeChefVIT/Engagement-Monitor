@@ -5,7 +5,7 @@ python:
   - 3.7
 before_install: npm install
 install:
-  - pip install -r requirements/dev.txt
+  - pip install -r requirements.txt
   - npm run dev
 before_script: cd src
 script:
