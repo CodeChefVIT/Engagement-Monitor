@@ -3,10 +3,8 @@ language: python
 python:
   - 3.6
   - 3.7
-before_install: npm install
 install:
   - pip install -r requirements.txt
-  - npm run dev
 before_script: cd src
 script:
   - python manage.py makemigrations
