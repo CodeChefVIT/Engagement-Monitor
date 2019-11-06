@@ -10,5 +10,6 @@ script:
   - python manage.py makemigrations
   - python manage.py migrate
   - python manage.py test
+  - coverage run --source=home manage.py home
 after_success:
   coveralls
