@@ -5,7 +5,6 @@ python:
   - 3.7
 install:
   - pip install -r requirements.txt
-before_script: cd src
 script:
   - python manage.py makemigrations
   - python manage.py migrate
