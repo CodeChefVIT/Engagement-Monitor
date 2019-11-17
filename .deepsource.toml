@@ -13,7 +13,6 @@ exclude_patterns = [
 
 [[analyzers]]
 name = "python"
-enabled = true
 name = "test-coverage"
 enabled = true
 dependency_file_paths = ["requirements.txt"]
