@@ -14,8 +14,6 @@ exclude_patterns = [
 [[analyzers]]
 name = "python"
 enabled = true
-name = "test-coverage"
-enabled = true
 dependency_file_paths = ["requirements.txt"]
 
   [analyzers.meta]
@@ -23,3 +21,7 @@ dependency_file_paths = ["requirements.txt"]
   type_checker = "mypy"
   max_line_length = 88
   skip_doc_coverage = ["module", "magic", "init"]
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
