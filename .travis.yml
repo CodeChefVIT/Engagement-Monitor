@@ -1,0 +1,22 @@
+sudo: false 
+language: python
+python:
+  - 3.6
+  - 3.7
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
+script:
+  - python manage.py makemigrations
+  - python manage.py migrate
+  - python manage.py test
+  - coverage run manage.py test
+after_success:
+  coveralls
+  - coverage xml
+
+  # Install deepsource CLI
+  - curl https://deepsource.io/cli | sh
+
+  # Report coverage artifact to 'test-coverage' analyzer
+  - ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml

@@ -1,5 +1,13 @@
 ![Engagement Monitor Logo](https://github.com/akshatvg/engagement-monitor/blob/master/static/img/Logo.png "Engagement Monitor Logo")
 
+
+
+[![Build Status](https://travis-ci.org/unknown-guy-1610/engagement-monitor.svg?branch=master)](https://travis-ci.org/unknown-guy-1610/engagement-monitor)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://ghttps://github.com/unknown-guy-1610/engagement-monitor/)
+
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/unknown-guy-1610/engagement-monitor/?ref=repository-badge)
+
 ### What is Engagement Monitor?
 Engagement Monitor is a web application which helps analyse active or disinterested members of a WhatsApp group.
 
