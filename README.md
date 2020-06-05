@@ -1,19 +1,21 @@
 # Engagement Monitor
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/engagement-monitor?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/engagement-monitor?style=social)](https://github.com/akshatvg/engagement-monitor/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/engagement-monitor/network) [![Build Status](https://travis-ci.org/unknown-guy-1610/engagement-monitor.svg?branch=master)](https://travis-ci.org/unknown-guy-1610/engagement-monitor) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://ghttps://github.com/unknown-guy-1610/engagement-monitor/) [![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/unknown-guy-1610/engagement-monitor/?ref=repository-badge)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/engagement-monitor?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/engagement-monitor?style=social)](https://github.com/akshatvg/engagement-monitor/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/engagement-monitor/network)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://ghttps://github.com/unknown-guy-1610/engagement-monitor/) [![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/unknown-guy-1610/engagement-monitor/?ref=repository-badge)
 
 Engagement Monitor is a web application which helps analyse active or disinterested members of a WhatsApp group.
 
 <p align="center">
-<a href="https://engagement-monitor.akshatvg.com">
+<a href="https://engagement-monitor-cc.herokuapp.com">
 <img src="https://github.com/akshatvg/engagement-monitor/blob/master/static/img/Logo.png" alt="Engagement Monitor Logo"/>
 </a>
 </p>
 
 ![Generic badge](https://img.shields.io/badge/Engagement-Monitor-orange) 
 
-#### Link for [demo](https://engagement-monitor.akshatvg.com) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://engagement-monitor.akshatvg.com)
+#### Link for [demo](https://engagement-monitor-cc.herokuapp.com) 
+[![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://engagement-monitor-cc.herokuapp.com)
 
 ## How to use Engagement Monitor?
 1) Go to group or individual chat settings on WhatsApp in your mobile phone and choose the 'Export Chat' option and save the .txt file anywhere on your device.
