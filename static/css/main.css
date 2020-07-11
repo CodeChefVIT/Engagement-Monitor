@@ -1,10 +1,10 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: #2F3FB0;
+    color: white;
 }
 
 .link1 {
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 
@@ -65,7 +65,7 @@ body {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     padding: 30px;
     background-color: #c4c1e0;
-    color: white;
+    color: #2F3FB0;
 }
 
 .signup-form .form-group {
@@ -107,7 +107,7 @@ body {
 }
 
 .signup-form form a {
-    color: #5c5eb8;
+    color: #2F3FB0;
     text-decoration: none;
 }
 
@@ -116,26 +116,34 @@ body {
 }
 
 .btn {
-    background-color: #7c73e6;
-    color: whitesmoke;
-    box-shadow: 0px 1px 3px black;
+    color: white;
+    background-color: #2F3FB0;
 }
 
 .btn:hover {
-    box-shadow: 0px 1px 3px black;
-    color: black;
-    background-color: white;
+    background-color: whitesmoke;
+    color: #2F3FB0;
 }
 
 a {
-    color: white;
+    color: #2F3FB0;
     text-decoration: underline;
 }
 
 a:hover {
-    color: whitesmoke;
+    color: rgba(255, 255, 255, 0.603);
 }
 
-h1{
-    color: #7c73e6;
-  }
+h1 {
+    color: white;
+}
+
+.form-control,
+.button,
+.btn,
+.form-control:focus,
+.button:focus,
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
