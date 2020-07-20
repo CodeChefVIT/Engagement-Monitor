@@ -1,6 +1,6 @@
 # Engagement Monitor
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/engagement-monitor?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/engagement-monitor?style=social)](https://github.com/akshatvg/engagement-monitor/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/engagement-monitor/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/CodeChefVIT/engagement-monitor?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/CodeChefVIT/engagement-monitor?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/CodeChefVIT/engagement-monitor?style=social)](https://github.com/CodeChefVIT/engagement-monitor/stargazers) [![GitHub forks](https://img.shields.io/github/forks/CodeChefVIT/engagement-monitor?style=social&logo=git)](https://github.com/CodeChefVIT/engagement-monitor/network)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://ghttps://github.com/unknown-guy-1610/engagement-monitor/) [![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/unknown-guy-1610/engagement-monitor/?ref=repository-badge)
 
@@ -8,7 +8,7 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 
 <p align="center">
 <a href="https://engagement-monitor-cc.herokuapp.com">
-<img src="https://github.com/akshatvg/engagement-monitor/blob/master/static/img/Logo.png" alt="Engagement Monitor Logo"/>
+<img src="https://github.com/CodeChefVIT/engagement-monitor/blob/master/static/img/Logo.png" alt="Engagement Monitor Logo"/>
 </a>
 </p>
 
@@ -31,15 +31,15 @@ Engagement Monitor is a web application which helps analyse active or disinteres
 
 ## Requirements
 
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/engagement-monitor?logo=css&style=social)](https://github.com/akshatvg/)
+[![GitHub top language](https://img.shields.io/github/languages/top/CodeChefVIT/engagement-monitor?logo=css&style=social)](https://github.com/akshatvg/)
 
-The source code of this project is written in **`Django, HTML/CSS/JS`**. So, you need to install `requirements.txt` to run this project.
+The source code of this project is written in **`Django, HTML/CSS/JS`**. So, you need to install `requirements.txt` using `pip` to run this project.
 
 ## Steps to run Engagement Monitor:
 
-#### On MacOS:
+#### On MacOS or Linux or Ubuntu:
 ```
-1) git clone https://github.com/akshatvg/engagement-monitor.git
+1) git clone https://github.com/CodeChefVIT/engagement-monitor.git
 2) cd engagement-monitor
 3) pip install -r requirements.txt
 4) cd engagement/venv
@@ -51,7 +51,7 @@ The source code of this project is written in **`Django, HTML/CSS/JS`**. So, you
 
 #### On Windows:
 ```
-1) git clone https://github.com/akshatvg/engagement-monitor.git
+1) git clone https://github.com/CodeChefVIT/engagement-monitor.git
 2) cd engagement-monitor
 3) pip install -r requirements.txt
 5) engage/Scripts/activate
@@ -63,53 +63,14 @@ The source code of this project is written in **`Django, HTML/CSS/JS`**. So, you
 
 ## Need help?
 
+[![Facebook](https://img.shields.io/badge/Facebook-follow-blue.svg?logo=facebook&logoColor=white)](https://www.facebook.com/codechefvit) [![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)](https://www.instagram.com/codechefvit/) [![GitHub](https://img.shields.io/badge/GitHub-contribute-black.svg?logo=github&logoColor=white)](https://github.com/CodeChefVIT) [![LinkedIn](https://img.shields.io/badge/LinkedIn-follow-blue.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/codechef-vit-chapter)
 
-Feel free to contact me via [Facebook](https://www.facebook.com/akshatvg).
-
-Invite me to connect on [LinkedIn](https://www.linkedin.com/in/akshatvg/).
-
-[![Facebook](https://img.shields.io/badge/Facebook-add-blue.svg?logo=facebook&logoColor=white)](https://www.facebook.com/akshatvg) [![Quora](https://img.shields.io/badge/Quora-ask-red.svg?logo=quora)](https://www.quora.com/profile/Akshat-Gupta-279) [![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)](https://www.instagram.com/akshatvg/) [![GitHub](https://img.shields.io/badge/Snapchat-add-yellow.svg?logo=snapchat&logoColor=white)](https://www.snapchat.com/add/akshatvg) [![Medium](https://img.shields.io/badge/Medium-follow-black.svg?logo=medium&logoColor=white)](https://medium.com/@akshatvg)
-
-
-```bash
-
-
-
- _____ _                 _     __   __            
-|_   _| |               | |    \ \ / /            
-  | | | |__   __ _ _ __ | | __  \ V /___  _   _   
-  | | | '_ \ / _` | '_ \| |/ /   \ // _ \| | | |  
-  | | | | | | (_| | | | |   <    | | (_) | |_| |  
-  \_/ |_| |_|\__,_|_| |_|_|\_\   \_/\___/ \__,_|  
-                                                  
-                                                  
-______                                            
-|  ___|                                           
-| |_ ___  _ __                                    
-|  _/ _ \| '__|                                   
-| || (_) | |                                      
-\_| \___/|_|                                      
-                                                  
-                                                  
-______      _               _   _               _ 
-| ___ \    (_)             | | | |             | |
-| |_/ / ___ _ _ __   __ _  | |_| | ___ _ __ ___| |
-| ___ \/ _ \ | '_ \ / _` | |  _  |/ _ \ '__/ _ \ |
-| |_/ /  __/ | | | | (_| | | | | |  __/ | |  __/_|
-\____/ \___|_|_| |_|\__, | \_| |_/\___|_|  \___(_)
-                     __/ |                        
-                    |___/                         
-
- 
-
-
-```
 
 ## License
 
-**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/engagement-monitor/blob/master/LICENSE)**
+**MIT &copy; [CodeChef-VIT](https://github.com/CodeChefVIT/engagement-monitor/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/akshatvg/engagement-monitor?style=social&logo=github)](https://github.com/akshatvg/engagement-monitor/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
+[![GitHub license](https://img.shields.io/github/license/CodeChefVIT/engagement-monitor?style=social&logo=github)](https://github.com/CodeChefVIT/engagement-monitor/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/codechefvit?style=social)](https://twitter.com/codechefvit)
 
 ---------
 
