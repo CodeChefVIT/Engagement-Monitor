@@ -23,7 +23,7 @@ SECRET_KEY = 'fhm=m29sp)1^bk$ebv^eb^&zl*2k_u!^ve4r2*+4d=_ok*0-vi'
 # SECURITY WARNING: don't run with debug turned on in production!
 
 ALLOWED_HOSTS = ["engagement-monitor-cc.herokuapp.com",
-                 "127.0.0.1", "engagement-monitor.tech", "localhost"]
+                 "127.0.0.1", "engagement-monitor.tech", "localhost", "engagement-monitor.codechefvit.com"]
 
 
 # Application definition
