@@ -7,15 +7,15 @@
 Engagement Monitor is a web application which helps analyse active or disinterested members of a WhatsApp group.
 
 <p align="center">
-<a href="https://engagement-monitor-cc.herokuapp.com">
+<a href="https://engagament-monitor.codechefvit.com">
 <img src="https://github.com/CodeChefVIT/engagement-monitor/blob/master/static/img/Logo.png" alt="Engagement Monitor Logo"/>
 </a>
 </p>
 
 ![Generic badge](https://img.shields.io/badge/Engagement-Monitor-orange) 
 
-#### Link for [demo](https://engagement-monitor-cc.herokuapp.com) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://engagement-monitor-cc.herokuapp.com)
+#### Link for [demo](https://engagament-monitor.codechefvit.com) 
+[![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://engagament-monitor.codechefvit.com)
 
 ## How to use Engagement Monitor?
 1) Go to group or individual chat settings on WhatsApp in your mobile phone and choose the 'Export Chat' option and save the .txt file anywhere on your device.
