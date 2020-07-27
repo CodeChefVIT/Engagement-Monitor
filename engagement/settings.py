@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import dj_database_url
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +24,7 @@ SECRET_KEY = 'fhm=m29sp)1^bk$ebv^eb^&zl*2k_u!^ve4r2*+4d=_ok*0-vi'
 # SECURITY WARNING: don't run with debug turned on in production!
 
 ALLOWED_HOSTS = ["engagement-monitor-cc.herokuapp.com",
-                 "127.0.0.1", "engagement-monitor.tech", "localhost", "engagement-monitor.codechefvit.com"]
+                 "127.0.0.1", "engagement-monitor.tech", "localhost", "engagement-monitor.codechefvit.com","engagement-monitor.akshatvg.com"]
 
 
 # Application definition
@@ -137,3 +138,5 @@ MEDIA_URL = '/media/'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework.authentication.BasicAuthentication', ),
 }
+
+django_heroku.settings(locals())
