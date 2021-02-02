@@ -1,4 +1,4 @@
-Django==2.2.13
+Django==2.2.18
 djangorestframework==3.10.2
 dnspython==1.16.0
 docopt==0.6.2
